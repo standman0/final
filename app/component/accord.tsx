@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowDownIcon } from '@heroicons/react/24/outline';
+import Down from '@/public/nav.svg'
 
 interface FAQ {
   question: string;
@@ -13,73 +13,24 @@ const AccordionItem: React.FC<FAQ> = ({ question, answer }) => {
     setIsOpen(!isOpen);
   };
 
+  const [isRotated, setIsRotated] = useState(false);
+  
+  const handleClick = () => {
+    setIsRotated(!isRotated);
+  };
+
   return (
-    <div className="flex mb-6 flex-col justify-center bg-background border border-solid border-grayscale-600">
+    <div className="flex ml-16 mb-6 flex-col justify-center bg-background mt-10 border  shadow-lg">
       <div className="flex p-6 h-20 transform origin-center transition duration-200 ease-out cursor-pointer" onClick={toggleAccordion}>
         <div className="font-base transform origin-center transition duration-200 ease-out  text-left">{question}</div>
-
+        <Down onClick={handleClick}
+          style={{ cursor: 'pointer', transition: 'transform 0.5s ease', transform: isRotated ? 'rotate(180deg)' : 'rotate(0deg)' }}
+          className='absolute right-8'
+        />
       </div>
       {isOpen && <div className="px-4 pb-4 text-base text-gray-500">{answer}</div>}
     </div>
   );
 };
 
-const FAQPage: React.FC = () => {
-  const faqs: FAQ[] = [
-    {
-      question: 'What is myCircle and how does it work?',
-      answer:
-        'myCircle allows users to create or join saving groups, socialize & build a community of financially responsible connections and network. Users must download the app and complete their KYC to join or create circle groups.',
-    },
-    {
-      question: 'What is myCircle and how does it work?',
-      answer:
-        'myCircle allows users to create or join saving groups, socialize & build a community of financially responsible connections and network. Users must download the app and complete their KYC to join or create circle groups.',
-    },
-    {
-      question: 'What is myCircle and how does it work?',
-      answer:
-        'myCircle allows users to create or join saving groups, socialize & build a community of financially responsible connections and network. Users must download the app and complete their KYC to join or create circle groups.',
-    },
-    {
-      question: 'What is myCircle and how does it work?',
-      answer:
-        'myCircle allows users to create or join saving groups, socialize & build a community of financially responsible connections and network. Users must download the app and complete their KYC to join or create circle groups.',
-    },
-    {
-      question: 'What is myCircle and how does it work?',
-      answer:
-        'myCircle allows users to create or join saving groups, socialize & build a community of financially responsible connections and network. Users must download the app and complete their KYC to join or create circle groups.',
-    },
-    {
-      question: 'What is myCircle and how does it work?',
-      answer:
-        'myCircle allows users to create or join saving groups, socialize & build a community of financially responsible connections and network. Users must download the app and complete their KYC to join or create circle groups.',
-    },
-    {
-      question: 'What is myCircle and how does it work?',
-      answer:
-        'myCircle allows users to create or join saving groups, socialize & build a community of financially responsible connections and network. Users must download the app and complete their KYC to join or create circle groups.',
-    },
-    {
-      question: 'What is myCircle and how does it work?',
-      answer:
-        'myCircle allows users to create or join saving groups, socialize & build a community of financially responsible connections and network. Users must download the app and complete their KYC to join or create circle groups.',
-    },
-
-  ];
-
-  return (
-    <div className="grid h-fit mb-16 mt-10 ml-44 ">
-    <div className="max-w-4xl  overflow-hidden  text-base font-medium">
-      <div className="text-base">
-        {faqs.map((faq, index) => (
-          <AccordionItem key={index} question={faq.question} answer={faq.answer} />
-        ))}
-      </div>
-    </div>
-    </div>
-  );
-};
-
-export default FAQPage;
+export default AccordionItem;

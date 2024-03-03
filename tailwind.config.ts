@@ -35,6 +35,8 @@ const config = {
         homelightgreen : "rgba(0, 175, 84, 0.09)",
         homemediumgreen: "rgba(0, 175, 84, 0.29)",
         earngreena:"rgba(0, 175, 84, 1)",
+        businessblue:'rgba(0, 175, 84, 0.05)',
+        helpblue:'rgba(21, 40, 72, 1)',
         homepink: "#F5AC72",
         homelightpink:"#F6E7DB",
         homelightpurple: "#F1ECF4",

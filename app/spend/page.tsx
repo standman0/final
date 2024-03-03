@@ -36,14 +36,14 @@ export default function Spend () {
                    
                     <div className="img1 bg-spendgreen relative w-full h-auto ">
                         <Splash
-                        className='absolute right-20   '
+                        className='absolute right-1'
                         />
                         <Image
                         width={300}
                         height={300}
                         src={Phone}
                         alt=''
-                        className='object-cover top-16 absolute left-36 '
+                        className='object-cover top-12 absolute left-24 '
                         />
                     </div>
                 </div>
