@@ -3,7 +3,7 @@ import Down from '@/public/nav.svg'
 
 interface FAQ {
   question: string;
-  answer: string;
+  answer: string | JSX.Element ;
 }
 
 const AccordionItem: React.FC<FAQ> = ({ question, answer }) => {

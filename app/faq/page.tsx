@@ -6,7 +6,7 @@ import React from 'react';
 
 interface FAQProps {
   question: string;
-  answer: React.ReactNode; // Update answer prop to accept React.ReactNode
+  answer:string | JSX.Element; 
 }
 
 const Faq: React.FC<FAQProps> = ({ question, answer }) => {
@@ -75,7 +75,7 @@ const faqs: FAQProps[] = [ // Use FAQProps[] to ensure TypeScript recognizes the
   // Add more FAQ items as needed
 ];
 
-// Define the Question component
+
 const Question: React.FC = () => {
   return (
     <>
