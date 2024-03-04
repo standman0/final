@@ -8,13 +8,13 @@ import Wallet from '@/app/images/wallet.png'
 import Grow from '@/app/images/Growth.png'
 
 
-export default function Influense () {
+export default function Influence () {
 
     return(
         <div className="product bg-white">
         <Header/>
         <div className="mx-auto aria-label max-w-7xl overflow-x-hidden 
-         bg-white font-Outfit box-border  ">
+         bg-white font-Outfit box-border">
 
            
 <div className=" flex mb-10 text-base flex-row w-full border-b-0">
@@ -32,12 +32,10 @@ export default function Influense () {
      <button className='px-14 mt-10 py-4 rounded-md  hover:bg-green-600 hover:text-blue-600 bg-blue-800 '>Get Started</button>
     </div>
    
-    <div className="img1 bg-businessblue w-full h-auto">
+    <div className="img1 bg-businessblue w-full h-full">
   <Image
     src={Wallet}
-    alt=""
-    height={200} 
-    width={200} 
+    alt="" 
     className="object-cover h-full w-full"
     
   />

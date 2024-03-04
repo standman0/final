@@ -2,12 +2,10 @@
 import  Header  from '@/app/component/header';
 import Footer from '@/app/component/footer'
 import Image from 'next/image';
-import Red from '@/app/images/RedDev.png'
 import Heart from '@/app/images/Heart.png'
-import Close from '@/public/close.svg'
-import Break from '@/public/break.svg'
 import Ball from '@/public/ball.svg'
 import Zig from '@/public/zigzag.svg'
+import SocialImport from '@/public/social.svg'
 
 
 export default function Social () {
@@ -18,7 +16,7 @@ export default function Social () {
         <div className=" mx-auto aria-label max-w-7xl max-h-[42rem]  overflow-hidden bg-white">         
 <div className=" flex pl-16  mb-10 text-base flex-row w-full border-b-0">
     <div className=" w-1/2 ">
-    <div className='mt-12 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-white cursor-pointer'>
+    <div className='mt-12 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-blue-800 cursor-pointer'>
     Socialize
 </div>
          <div className="pt-5 items-center w-8/12  flex-grow bg-white"
@@ -32,17 +30,7 @@ export default function Social () {
     </div>
    
     <div className="img1 bg-socialash w-1/2 relative h-[40rem] flex justify-center overflow-hidden"
- >
-        <Close className='object-contain z-10 absolute right-12 bottom-14'/>
-        <Break className='object-contain  z-10 absolute left-16 top-64'/>
-
-        <Image
-        src={Red}
-        height={350}
-        width={350}
-        alt=''
-        className='object-contain z-0 absolute top-32 '
-        />
+ >     <SocialImport/>
     </div>
 </div>
 </div>

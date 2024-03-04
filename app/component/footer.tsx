@@ -1,7 +1,4 @@
 import { JSX, SVGProps } from "react";
-import Image from "next/image";
-import Googleimg from "@/app/images/img1.jpg";
-import Appstoreimg from "@/app/images/img2.jpg";
 import React from "react";
 import Logo from "@/public/logo.svg";
 import AppStore from "@/public/apple-store.svg";
@@ -84,8 +81,10 @@ export default function Example() {
               finacially responsible connections.
             </p>
             <div className="store flex gap-6">
-              <PlayStore/>
-              <AppStore />
+            <a className="hover:cursor-pointer" href="http://"> <PlayStore />
+             
+             </a>
+             <a className="hover:cursor-pointer" href="http://"><AppStore  /></a> 
             </div>
           </div>
           <div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">

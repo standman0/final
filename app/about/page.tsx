@@ -14,8 +14,9 @@ export default function Product() {
     return (
         <>
             <Header />
-            <div  aria-label="Global" className="max-w-7xl mx-auto  overflow-hidden bg-white box-border ">
-                <div className="flex flex-col gap-20 md:flex-row px-4 md:px-16 py-8 md:py-12 lg:py-16 bg-purple-50 border-b-0">
+            <div  aria-label="Global" className=" overflow-hidden bg-white box-border ">
+                    <section className=' bg-about'>
+                    <div className="flex flex-col max-w-7xl mx-auto arial-label gap-20 md:flex-row px-4 md:px-16 py-8 md:py-12 lg:py-16 border-b-0">
                     <div className="md:w-5/12 ">
                         <div className="mt-6 px-4 md:px-12 py-3 w-fit bg-green-200 rounded-3xl font-semibold text-green-700 shadow-md cursor-pointer">
                             About Us
@@ -50,8 +51,10 @@ export default function Product() {
                             /> 
                     </div>
                 </div>
+                    </section>
 
-                <div className="w-full mt-14 h-auto md:h-80 flex flex-col md:flex-row gap-4 rounded-xl bg-white p-4 md:p-0">
+                    <section className=' '>
+                    <div className="w-full max-w-7xl mx-auto arial-label mt-14 h-auto md:h-80 flex flex-col md:flex-row gap-4 rounded-xl bg-white p-4 md:p-0">
                     <div className="w-full md:w-8/12">
                     <div className="text-center p-2 w-32 rounded-3xl ml-16 bg-green-200 font-semibold text-green-500 shadow-md">
                            Our Vision
@@ -79,8 +82,10 @@ export default function Product() {
                         </div>
                     </div>
                 </div>
+                    </section>
 
-                <div className="flex flex-col items-start bg-white px-4 md:px-14">
+                    <section className='' >
+                    <div className="flex max-w-7xl mx-auto arial-label flex-col items-start bg-white px-4 md:px-14">
                     <div className="flex py-4 md:py-8">
                         <div className="  ml-2 px-12 py-2 bg-green-200 rounded-3xl font-semibold text-green-500 shadow-md">
                             Team
@@ -104,9 +109,9 @@ export default function Product() {
                                 <h1 className='font-bold text-xl text-black text-center'>CEO</h1>
                             </div>
                         </div>
-                        <div className="p-8 flex flex-col justify-center md:px-24 rounded-2xl bg-aboutblue">
+                        <div className="p-8 flex flex-col justify-center md:px-16 rounded-2xl bg-aboutblue">
                         <div className="">
-                        <div className=" h-48 w-48 mb-8 rounded-full ">
+                        <div className=" h-44 w-44 mb-8 rounded-full ">
                         <Image 
                             src={Monica} 
                             alt='' 
@@ -140,8 +145,10 @@ export default function Product() {
                         </div>
                     </div>
                 </div>
+                    </section>
 
-                <div className="flex mb-20 flex-col px-7 md:flex-row gap-7 w-full h-auto md:h-screen mt-20">
+                    <section>
+                    <div className="flex max-w-7xl mx-auto arial-label  mb-20 flex-col px-7 md:flex-row gap-7 w-full h-auto md:h-screen mt-20">
                     <div className="w-full md:w-2/4 h-full flex flex-col md:ml-9 gap-5">
                         <div className="px-6 py-2 md:w-32 bg-green-200 rounded-3xl font-semibold text-green-500 shadow-md">
                             Our Drive
@@ -177,6 +184,7 @@ export default function Product() {
                             /> 
                     </div>
                 </div>
+                    </section>
             </div>
             <Footer />
         </>

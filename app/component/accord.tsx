@@ -20,7 +20,7 @@ const AccordionItem: React.FC<FAQ> = ({ question, answer }) => {
   };
 
   return (
-    <div className="flex ml-16 mb-6 flex-col justify-center bg-background mt-10 border  shadow-lg">
+    <div className="flex ml-44 mr-44  mb-6 flex-col justify-center bg-background mt-10 border  shadow-lg">
       <div className="flex p-6 h-20 transform origin-center transition duration-200 ease-out cursor-pointer" onClick={toggleAccordion}>
         <div className="font-base transform origin-center transition duration-200 ease-out  text-left">{question}</div>
         <Down onClick={handleClick}

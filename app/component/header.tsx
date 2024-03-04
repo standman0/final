@@ -17,6 +17,8 @@ import {
 } from "@heroicons/react/20/solid";
 import React from "react";
 import Logo from "@/public/logo.svg";
+import Recycle from "@/public/recycle.svg";
+import Air from "@/public/air.svg";
 
 const products = [
   {
@@ -29,19 +31,19 @@ const products = [
     name: "Spend",
     description: "Speak directly to your customers",
     href: "/spend",
-    icon: PaperAirplaneIcon,
+    icon: Air,
   },
   {
     name: "Socialize",
     description: "Your customers’ data will be safe and secure",
     href: "/socialize",
-    icon: PaperAirplaneIcon,
+    icon: Air,
   },
   {
     name: "Business",
     description: "Connect with third-party tools",
     href: "business",
-    icon: SquaresPlusIcon,
+    icon: Air,
   },
   {
     name: "Influencers",
@@ -53,7 +55,7 @@ const products = [
     name: "Earn",
     description: "Build strategic funnels that will convert",
     href: "/earn",
-    icon: ArrowPathIcon,
+    icon: Recycle,
   },
 ];
 const company = [
@@ -67,19 +69,19 @@ const company = [
     name: "Blog",
     description: "Speak directly to your customers",
     href: "#",
-    icon: PaperAirplaneIcon,
+    icon: Recycle,
   },
   {
     name: "Learn",
     description: "Your customers’ data will be safe and secure",
     href: "#",
-    icon: PaperAirplaneIcon,
+    icon: Air,
   },
   {
     name: "Careers",
     description: "Connect with third-party tools",
     href: "#",
-    icon: SquaresPlusIcon,
+    icon: PlusIcon,
   },
   {
     name: "Team",
@@ -91,7 +93,7 @@ const company = [
     name: "Contact Us",
     description: "Build strategic funnels that will convert",
     href: "#",
-    icon: ArrowPathIcon,
+    icon: PlusIcon,
   },
 ];
 
@@ -158,11 +160,11 @@ export default function Example() {
                   {products.map((item) => (
                     <div
                       key={item.name}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-lg leading-6 hover:bg-gray-50"
+                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-base leading-6 hover:bg-gray-50"
                     >
-                      <div className="flex h-11 w-11 flex-none items-center justify-center rounded-full bg-gray-100 group-hover:bg-white">
+                      <div className="flex h-11 w-11 flex-none items-center justify-center rounded-full bg-iconblue group-hover:bg-white">
                         <item.icon
-                          className="h-6 w-6 text-gray-600 group-hover:text-blue-900"
+                          className="h-6 w-6 text-icon group-hover:text-blue-900"
                           aria-hidden="true"
                         />
                       </div>
@@ -204,11 +206,11 @@ export default function Example() {
                   {company.map((item) => (
                     <div
                       key={item.name}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-base leading-6 hover:bg-gray-50"
                     >
-                      <div className="flex h-11 w-11 flex-none items-center justify-center rounded-full bg-gray-100 group-hover:bg-white">
+                      <div className="flex h-11 w-11 flex-none items-center justify-center rounded-full bg-iconblue group-hover:bg-white">
                         <item.icon
-                          className="h-6 w-6 text-gray-600 group-hover:text-blue-900"
+                          className="h-6 w-6 text-icon group-hover:text-blue-900"
                           aria-hidden="true"
                         />
                       </div>

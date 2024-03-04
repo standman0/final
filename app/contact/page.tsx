@@ -5,9 +5,11 @@ import Footer from '@/app/component/footer';
 export default function Question () {
     return (
        <>
-       <div className="bg-white overflow-hidden max-w-7xl mx-auto aria-label">
+     
+         <div className="bg-white overflow-hidden ">
         <div className="w-full h-fit relative flex flex-col">
-            <div className="w-full flex  h-72  bg-helpblue ">
+          <section className=' bg-helpblue'>
+                       <div className="w-full flex  max-w-7xl mx-auto aria-label  h-72  ">
             <div className=" w-1/2 p-36">
             <h2 className='font-bold text-xl ml-7   text-white'>Hello! how can we help you?</h2>
             </div>
@@ -15,8 +17,11 @@ export default function Question () {
               <h2  className='font-bold text-xl text-end hover:cursor-pointer  text-white'><a href="/">Hello! how can we help you?</a> </h2>
             </div>
             </div>
-            <div className="flex h-fit w-full rounded-2xl mb-10 top-52 ml-9  flex-row gap-8 justify-center">
-                  <div className="w-1/4 h-2/5 p-8 relative left-1 bottom-20 shadow-2xl  bg-white">
+          </section>
+
+            <section className='max-w-7xl mx-auto aria-label'>
+               <div className="flex   h-fit w-full rounded-2xl mb-10 top-52 ml-9  flex-row gap-8 justify-center">
+                  <div className="w-1/4 h-2/5  p-8 relative left-1 bottom-20 shadow-2xl  bg-white">
                     <h2 className= 'font-medium mb-5  text-blue-900 text-lg'>Frequently Asked Question</h2>
                     <p className='text-sm text-blue-900 mb-4'>Get more information and quality answers  to your questions, including Circle groups management, Earning and circle shops</p>
                     <button  className='bg-blue-700 px-3 py-2 text-white rounded-md  '> <a href="http:/faq">See all FAQ</a> </button>
@@ -36,10 +41,13 @@ export default function Question () {
                   </div>
 
                 </div>
+            </section>
+           
         </div>
             
-        <Footer/>
+        
        </div>
+       <Footer/>
        </>
     )
 }

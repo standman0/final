@@ -4,7 +4,7 @@ import Footer from '@/app/component/footer';
 import Form from '@/app/component/form'
 import Image from 'next/image';
 import BusinessData from '@/public/busness.svg'
-import Chow from '@/app/images/chop.png'
+import Chow from '@/app/images/Chop.png'
 import Market from '@/app/images/Market.png'
 import Ball from '@/public/ball.svg'
 
@@ -21,7 +21,7 @@ export default function Business () {
 
                 <div className="flex text-base w-full h-full border-b-0">
                     <div className="w-1/2 h-full">
-                        <div className='mt-24 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-white shadow-md cursor-pointer'>
+                        <div className='mt-24 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-blue-800 shadow-md cursor-pointer'>
                             Business
                         </div>
                         <div className=" pt-10 items-center w-8/12 h-fit ">
@@ -88,8 +88,8 @@ export default function Business () {
                      <Form/>
                     </div>
                 </div>
-                <div className="w-full h-screen mt-10 ">
-                    <BusinessData className='h-screen w-screen'/>
+                <div className=" max-w-7xl mx-auto aria-label w-full mt-10 ">
+                    <BusinessData />
                 </div>
             </div>
             

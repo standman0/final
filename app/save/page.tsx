@@ -10,7 +10,8 @@ export default function Save() {
     <>
       <div className="product">
         <Header />
-        <div className=" max-w-7xl mx-auto aria-label  overflow-x-hidden mb-16 pb-4 bg-white font-Outfit box-border  ">
+        <section>
+           <div className=" max-w-7xl mx-auto aria-label  overflow-x-hidden mb-8 pb-4 bg-white font-Outfit box-border  ">
           <div className="grid grid-flow-col justify-stretch text-base w-fit border-b-0">
             <div className="">
               <div className="mt-24 mb-3 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-blue-900 shadow-md cursor-pointer">
@@ -32,13 +33,15 @@ export default function Save() {
               </button>
             </div>
 
-            <div className="bg-green-100 w-fit h-fit ">
+            <div className="bg-green-100 w-fit h-[45rem] ">
                 <PhoneSaveIllustration/>
             </div>
           </div>
         </div>
 
-        <div className=" max-w-7xl mx-auto aria-label  h-80 flex flex-row rounded-xl bg-teal-50">
+        </section>
+        <section>
+ <div className=" max-w-7xl mx-auto aria-label  h-80 flex flex-row rounded-xl bg-teal-50">
           <div className="grid justify-items-center text-center w-1/3  h-full">
             <div className="flex flex-col text-left pl-16 justify-center">
               <Ball/>
@@ -76,8 +79,9 @@ export default function Save() {
             </div>
           </div>
         </div>
-
-        <div className="mx-auto max-w-7xl   w-full grid  justify-items-center text-center ">
+        </section>
+        <section>
+ <div className="mx-auto max-w-7xl   w-full grid  justify-items-center text-center ">
           <div className="flex w-2/5 flex-col gap-4 ">
             <div className="text-black text-5xl mb-0 pt-24 font-extrabold">
               Start growing wealth
@@ -100,9 +104,12 @@ export default function Save() {
           </div>
         </div>
 
+        </section>
+        <section>
         <div className="mx-auto max-w-7xl bg-white">
             <FinalSaveIllustration/>
         </div>
+        </section>
       </div>
       <Footer />
     </>
