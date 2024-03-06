@@ -8,57 +8,59 @@ import Ball from '@/public/ball.svg'
 export default function Save() {
   return (
     <>
-      <div className="product">
-        <Header />
+    <Header />
+      <div className="product w-screen box-border overflow-hidden">
+        
         <section>
-           <div className=" max-w-7xl mx-auto aria-label  overflow-x-hidden mb-8 pb-4 bg-white font-Outfit box-border  ">
-          <div className="grid grid-flow-col justify-stretch text-base w-fit border-b-0">
-            <div className="">
-              <div className="mt-24 mb-3 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-blue-900 shadow-md cursor-pointer">
-                <span className="text-sm px-6">Save</span>
-              </div>
-              <div className=" pt-10 items-center w-8/12 h-fit bg-white">
-                <h2 className="text-black text-5xl leading-nomal  font-extrabold mb-3 ">
-                  The reliable way to save and grow wealth
-                </h2>
-                <p className="text-gray-500 pt-5 texl-2xl">
-                  myCircle provides a reliable and effortless way to save,
-                  invest and build wealth, offering high interest ensuring
-                  accountable practical savings that allows you grow wealth
-                  seamlessly.
-                </p>
-              </div>
-              <button className="px-14 mt-6 py-4 rounded-md text-white hover:bg-green-600 hover:text-blue-900 bg-blue-900 ">
-                Get Started
-              </button>
-            </div>
-
-            <div className="bg-green-100 w-fit h-[45rem] ">
-                <PhoneSaveIllustration/>
-            </div>
-          </div>
+  <div className="md:max-w-7xl md:mx-auto  w-screen overflow-x-hidden mb-8 pb-4 bg-white font-Outfit box-border">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-base">
+      <div className="md:mt-8">
+        <div className="px-12 py-3 mt-7 ml-5 w-fit bg-gray-200 rounded-3xl font-semibold text-blue-900 ">
+          <span className="text-sm px-6">Save</span>
         </div>
+        <div className="pt-10 md:pt-3 md:items-center w-full md:w-full bg-white">
+          <h2 className="text-black text-3xl px-5  md:px-5 md:text-5xl leading-normal font-extrabold mb-3">
+            The reliable way to <br /> save and grow wealth
+          </h2>
+          <p className="text-gray-500 px-6 pt-5 md:text-xl">
+            myCircle provides a reliable and effortless way to save, invest,
+            and build wealth, offering high interest ensuring accountable
+            practical savings that allows you grow wealth seamlessly.
+          </p>
+          <button className="px-14 mt-6 py-4 rounded-md text-white hover:bg-green-600 hover:text-blue-900 ml-8 bg-blue-900">
+            Get Started
+          </button>
+        </div>
+      </div>
 
-        </section>
+
+      <div className="flex flex-col mr-[2rem] w-full h-[36rem] md:h-[40rem] relative md:w-full  bg-green-100">
+  <PhoneSaveIllustration  className='absolute  md:h[40rem] md:w-full right-[-6rem] md:right-[-6rem] md:bottom-[4rem]' />
+</div>
+
+    </div>
+  </div>
+</section>
+
         <section>
- <div className=" max-w-7xl mx-auto aria-label  h-80 flex flex-row rounded-xl bg-teal-50">
-          <div className="grid justify-items-center text-center w-1/3  h-full">
-            <div className="flex flex-col text-left pl-16 justify-center">
+ <div className=" max-w-7xl mx-auto aria-label h-fit md:h-80 flex flex-col md:flex-row rounded-xl bg-teal-50">
+          <div className="grid justify-items-center text-center md:w-1/3 w-full h-full">
+            <div className="flex flex-col text-left p-7 md:w-full pt-5 md:pl-16 justify-center">
               <Ball/>
-              <h1 className="text-xl pt-7 font-bold text-blue-900 ">
+              <h1 className="md:text-xl pt-7 text-2xl font-bold text-blue-900 ">
                 Maximum Interest
               </h1>
-              <p className="text-gray-500 leading-7 tracking-wide">
+              <p className="text-gray-500 md:leading-7 md:tracking-wide">
                 Enjoy over 15% in savings interest annually on all circle groups
                 and unused funds in wallet
               </p>
             </div>
           </div>
 
-          <div className=" grid justify-items-center text-center w-1/3  h-full ">
-            <div className="flex flex-col text-left pl-16 justify-center">
+          <div className=" grid justify-items-center text-center w-full md:w-1/3  h-full ">
+            <div className="flex flex-col text-left p-7 md:w-full pt-5 md:pl-16 justify-center">
             <Ball/>
-              <h1 className="text-xl pt-7 font-bold text-blue-900 ">
+              <h1 className="md:text-xl text-2xl pt-7 font-bold text-blue-900 ">
                 Automated Savings
               </h1>
               <p className="text-gray-500 leading-7 tracking-wide">
@@ -68,10 +70,10 @@ export default function Save() {
             </div>
           </div>
 
-          <div className=" grid justify-items-center text-center w-1/3  h-full ">
-            <div className="flex flex-col text-left pl-16 justify-center">
+          <div className=" grid justify-items-center text-center w-full md:w-1/3  h-full ">
+            <div className="flex flex-col text-left p-7 md:w-full md:pl-16 justify-center">
             <Ball/>
-              <h1 className="text-xl pt-7 font-bold text-blue-900 ">Flexible</h1>
+              <h1 className="md:text-xl text-2xl pt-7 font-bold text-blue-900 ">Flexible</h1>
               <p className="ext-gray-500 leading-7 tracking-wide">
                 Set flexible Access to your savings or Interest whenever you
                 want across multiple groups{" "}
@@ -82,11 +84,11 @@ export default function Save() {
         </section>
         <section>
  <div className="mx-auto max-w-7xl   w-full grid  justify-items-center text-center ">
-          <div className="flex w-2/5 flex-col gap-4 ">
-            <div className="text-black text-5xl mb-0 pt-24 font-extrabold">
+          <div className="flex w-full md:w-2/5 flex-col gap-4 ">
+            <div className="text-black text-3xl md:text-5xl mb-0 pt-24 font-extrabold">
               Start growing wealth
             </div>
-            <div className="text-black text-5xl font-extrabold">
+            <div className="text-black text-3xl md:text-5xl font-extrabold">
               Create or join Circle
             </div>
             <p className="text-gray-500 mt-2">
@@ -106,8 +108,8 @@ export default function Save() {
 
         </section>
         <section>
-        <div className="mx-auto max-w-7xl bg-white">
-            <FinalSaveIllustration/>
+        <div className="mx-auto hidden md:block  md:max-w-7xl bg-white">
+            <FinalSaveIllustration className=''/>
         </div>
         </section>
       </div>

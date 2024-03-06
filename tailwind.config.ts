@@ -14,7 +14,17 @@ const config = {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        'sm': '640px',
+        
+  
+        'md': '768px',
+   
+        'lg': '1024px',
+       
+  
+        'xl': '1280px',
+
+        '2xl': '1536px',
 
       },
     },
@@ -48,6 +58,10 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        backgroundImage: {
+          'wave-pattern': "url('@/app/images/Fwave.png')",
+          'swave-pattern': "url('@/app/images/Swave.png')",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -99,9 +113,14 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      borderWidth: {
+        "border-border": 'border',
+      },
+      
     },
   },
   plugins: [require("tailwindcss-animate")],
+  
 } satisfies Config
 
 export default config

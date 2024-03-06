@@ -19,8 +19,8 @@ const navigation = {
     { name: "Join our community", href: "#" },
   ],
   company: [
-    { name: "Privacy Policy", href: "#" },
-    { name: "Terms and Condition", href: "#" },
+    { name: "Privacy Policy", href: "/privacy" },
+    { name: "Terms and Condition", href: "/privacy" },
   ],
   legal: [
     { name: "FAQ", href: "/faq" },

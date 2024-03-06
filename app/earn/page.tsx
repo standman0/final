@@ -10,6 +10,7 @@ import Break from '@/public/break.svg'
 import Google from '@/public/play-store.svg'
 import Apple from '@/public/apple-store.svg'
 
+
 export default function Product () {
 
     return(
@@ -20,57 +21,57 @@ export default function Product () {
             <div className=" overflow-x-hidden ">
 
            
-                <div className=" flex overflow-x-hidden max-h-[42rem] text-base flex-row overflow-hidden ">
-                    <div className="">
-                    <div className='mt-24 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-blue-700 cursor-pointer'>
+                <div className=" flex overflow-x-hidden lg:max-h-[42rem] text-base flex-col lg:flex-row overflow-hidden ">
+                    <div className="p-5">
+                    <div className='lg:mt-12 mt-10 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-blue-700'>
                     Earn
                 </div>
-                         <div className=" pt-5 items-center w-8/12 h-fit bg-white">
-                        <h2 className='text-black text-5xl leading-nomal  font-extrabold mb-3 '>
+                         <div className=" pt-5 items-center lg:w-8/12 h-fit bg-white">
+                        <h2 className='text-black text-4xl lg:text-5xl leading-nomal  font-extrabold mb-3 '>
                             Seamless Earning from your Circles
                         </h2>
                         <p className='text-neutral-400 pt-5 texl-2xl'>For every circle group created, you earn a percentage of the interest generated on savings accrued by your groups. You unlock a new income level for every user milestones reached.  more circles with o created the more you earn</p>
 
                     </div>
-                     <button className='px-14 mt-14 py-4 rounded-md  hover:bg-green-600 hover:text-blue-600 bg-blue-800 '>Get Started</button>
+                     <button className='lg:px-14 mt-14 lg:py-4 px-4 py-3 rounded-md  hover:bg-green-600 hover:text-blue-600 bg-blue-800 '>Get Started</button>
                     </div>
                    
-                    <div className="img1 bg-socialash w-full relative h-[40rem] flex justify-center overflow-hidden"
+                    <div className="img1 bg-socialash pt-10 h-[30rem] w-full relative lg:h-[40rem] flex justify-center overflow-hidden"
  >
-        <Close className='object-contain z-10 absolute right-12 bottom-14'/>
-        <Break className='object-contain  z-10 absolute left-16 top-64'/>
+        <Close className='object-contain  left-[16rem] top-[14rem]   z-10 absolute lg:right-12 lg:top-[25rem]'/>
+        <Break className='object-contain z-10 absolute right-[15rem] top-[9rem] lg:left-16 lg:top-[16rem]'/>
 
         <Image
         src={Red}
         height={350}
         width={350}
         alt=''
-        className='object-contain z-0 absolute top-32 '
+        className='object-contain w-1/2 z-0  absolute lg:h-full lg:bottom-[-6rem] '
         />
     </div>
                 </div>
             </div>
 
-        <div className="w-auto  h-80 flex flex-row rounded-xl bg-teal-50  ">
+        <div className="w-auto my-6  lg:h-80 flex flex-col lg:flex-row rounded-xl bg-teal-50  ">
 
-        <div className="grid justify-items-center text-center w-1/3  h-full">
-  <div className="flex flex-col text-left pl-16 justify-center">
+        <div className="grid justify-items-center w-full text-center lg:w-1/3  h-full">
+  <div className="flex flex-col text-left p-6 lg:pl-16 justify-center">
     <Ball/>
     <h1 className='text-xl mt-5 font-bold text-blue-800 '>Create</h1>
     <p className='text-neutral-500 leading-7 text-sm tracking-wide'>The more circles created, the more your potential income opportunities</p>
   </div>
 </div>
 
-        <div className=" grid justify-items-center text-center w-1/3  h-full ">
-            <div className="flex flex-col text-left pl-16 justify-center">
+        <div className=" grid justify-items-center text-center lg:w-1/3  h-full ">
+            <div className="flex flex-col text-left p-6 lg:pl-16 justify-center">
                 <Ball/>
                 <h1 className='text-xl mt-5 font-bold text-blue-800 '>Save</h1>
                 <p className='text-neutral-500 leading-7 text-sm tracking-wide'>Earnings generated are subjected to actual prevailing residual interest rate. You earning</p>
             </div>
         </div>
 
-        <div className=" grid justify-items-center text-center w-1/3  h-full ">
-            <div className="flex flex-col text-left pl-16 justify-center">
+        <div className=" grid justify-items-center text-center w-full lg:w-1/3  h-full ">
+            <div className="flex flex-col text-left p-6 lg:pl-16 justify-center">
                 <Ball/>
                 <h1 className='text-xl mt-5 font-bold text-blue-800 '>Cashout</h1>
                 <p className='text-neutral-500 text-sm leading-7 tracking-wide'>Pay out your earnings at the end of each months, regardless, it keeps generating income</p>
@@ -81,7 +82,7 @@ export default function Product () {
 
          <div className="max-h-[42rem] mb-12 w-full grid  justify-items-center text-center ">
            
-            <div className="flex w-2/5 flex-col gap-4 ">
+            <div className="flex lg:w-2/5 px-4 flex-col gap-4 ">
                 <div className='text-black text-5xl mb-0 pt-32 font-extrabold' >Save <span className='text-blue-700'>Money</span>  </div>
             <div className='text-black text-5xl font-extrabold'>Earn <span className='text-earngreena'>
                Money </span> </div>
@@ -93,18 +94,18 @@ export default function Product () {
             </div>         
          </div>
 
-         <div className=" max-w-7xl mx-auto aria-label  
-           h-[32rem] w-full flex flex-row rounded-xl bg-spendblue">
-            <div className="img w-1/2 h-full">
+         <div className="py-12 max-w-7xl mx-auto aria-label  
+           lg:h-[32rem]  w-full flex flex-col lg:flex-row lg:rounded-xl bg-spendblue">
+            <div className="img  lg:w-1/2 h-full">
             <Image
                         width={600}
                         height={600}
                         src={Pig}
                         alt=''
-                        className='object-cover'
+                        className='object-cover relative left-[5rem] w-2/3'
                         />
             </div>
-            <div className="flex flex-col justify-center">
+            <div className="flex flex-col p-4 justify-center">
                 <h1 className='text-white text-5xl font-extrabold mb-8'>Spend with ease of mind </h1>
                 <p className='text-brandblack text-base '>With myCircle, you have the ability to swap currencies in the blink <br /> of an eye. Our cutting-edge technology ensures that your <br /> transactions are not only swift but also executed at the optimal <br /> rates, maximizing the value of every exchange.
 </p>

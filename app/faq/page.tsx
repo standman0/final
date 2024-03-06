@@ -79,12 +79,14 @@ const faqs: FAQProps[] = [ // Use FAQProps[] to ensure TypeScript recognizes the
 const Question: React.FC = () => {
   return (
     <>
-      <div className="h-screen max-w-7xl mx-auto aria-label w-full bg-white">
+      <div className="h-screen ">
         <Header />
-        {/* Render each FAQ item from the array */}
-        {faqs.map((faq, index) => (
+        <section className='max-w-7xl mx-auto bg-white aria-label w-full'>
+          {faqs.map((faq, index) => (
           <Accordion key={index} question={faq.question} answer={faq.answer} />
         ))}
+        </section>
+        
         <Footer />
       </div>
     </>

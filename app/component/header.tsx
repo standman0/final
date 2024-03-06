@@ -92,7 +92,7 @@ const company = [
   {
     name: "Contact Us",
     description: "Build strategic funnels that will convert",
-    href: "#",
+    href: "/contact",
     icon: PlusIcon,
   },
 ];
