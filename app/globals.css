@@ -74,4 +74,14 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .support-banner {
+    background-image: url("/support-wave.png");
+    width:100%;
+    height: 100%;
+    transform: rotate(180deg);
+    opacity: 0.1;
+    background-size: cover;
+    filter: grayscale(80%);
+  }
 }

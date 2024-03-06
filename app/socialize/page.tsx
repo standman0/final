@@ -16,7 +16,7 @@ export default function Social () {
         <div className=" mx-auto aria-label lg:mb-6 max-w-7xl h-full lg:max-h-[42rem]  overflow-hidden bg-white">         
 <div className=" flex md:pl-16 flex-col   mb:mb-10 text-base md:flex-row  w-full border-b-0">
     <div className=" md:w-1/2 w-full ">
-    <div className='mt-12 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-blue-800 cursor-pointer'>
+    <div className='mt-12 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-homeblue cursor-pointer'>
     Socialize
 </div>
          <div className="pt-5 items-center px-6 lg:w-8/12  flex-grow bg-white"
@@ -26,7 +26,7 @@ export default function Social () {
         </h2>
         <p className='text-neutral-400 text-base  md:pt-5 lg:texl-2xl'>myCircle allows you socialize, chat and have fun within circle threads in each circle groups. Private and Public conversations can be initiated. With the myCircle premium business groups, business opportunities can be discussed and executed jointly.</p>
     </div>
-     <button className='px-14 ml-6 mb-5 mt-14 py-4 rounded-md  hover:bg-green-600 hover:text-blue-600 bg-blue-800 '>Get Started</button>
+     <button className='px-14 ml-6 mb-5 mt-14 py-4 rounded-md  hover:bg-green-600 hover:text-homeblue bg-blue-800 '>Get Started</button>
     </div>
    
     <div className="img1 bg-socialash h-[28rem] w-full lg:w-1/2 relative lg:h-[40rem] flex justify-center overflow-hidden"
@@ -39,7 +39,7 @@ export default function Social () {
 <div className="grid justify-items-center text-center w-full lg:w-1/3  h-full">
 <div className="flex flex-col text-left p-6 lg:pl-16 justify-center">
     <Ball/>
-<h1 className='text-xl mt-5 font-bold text-blue-800 '>Connect</h1>
+<h1 className='text-xl mt-5 font-bold text-homeblue '>Connect</h1>
 <p className='text-neutral-500 leading-7 tracking-wide'>Connect and link up with like minded financially reliable and accountable connects </p>
 </div>
 </div>
@@ -47,7 +47,7 @@ export default function Social () {
 <div className=" grid justify-items-center text-center w-full lg:w-1/3  h-full ">
 <div className="flex flex-col text-left p-6 lg:pl-16 justify-center">
 <Ball/>
-<h1 className='text-xl mt-5 font-bold text-blue-800 '>Network</h1>
+<h1 className='text-xl mt-5 font-bold text-homeblue '>Network</h1>
 <p className='text-neutral-500 leading-7 tracking-wide'>Grow your Network, join business Groups, execute joint Business and share your risk </p>
 </div>
 </div>
@@ -55,7 +55,7 @@ export default function Social () {
 <div className=" grid justify-items-center text-center w-full lg:w-1/3  h-full ">
 <div className="flex flex-col text-left p-6 lg:pl-16 justify-center">
 <Ball/>
-<h1 className='text-xl mt-5 font-bold text-blue-800 '>Engage</h1>
+<h1 className='text-xl mt-5 font-bold text-homeblue '>Engage</h1>
 <p className='text-neutral-500 leading-7 tracking-wide'>Engage on circle threads, learn financial literacy Realtime from financial experts </p>
 </div>
 </div>

@@ -19,7 +19,7 @@ export default function Influence () {
            
 <div className=" flex mb-10 text-base flex-col lg:flex-row w-full border-b-0">
     <div className="p-6">
-    <div className='mt-14 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-blue-700 cursor-pointer'>
+    <div className='mt-14 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-homeblue cursor-pointer'>
     Influence
 </div>
          <div className=" pt-10 items-center w-full lg:w-2/3 h-fit bg-white">
@@ -29,7 +29,7 @@ export default function Influence () {
         <p className='text-neutral-400 pt-5 texl-2xl'>Build a positive and life changing brand. Influence for good using myCircle sustainable finance. Create a Circle, Influence financial literacy and engage your tribe to building an accountable savings lifestyle and create a recurring monthly income whilst at it.</p>
 
     </div>
-     <button className='lg:px-14 px-4 py-2 mt-10 lg:py-4 rounded-md  hover:bg-green-600 hover:text-blue-600 bg-blue-800 '>Get Started</button>
+     <button className='lg:px-14 px-4 py-2 mt-10 lg:py-4 rounded-md  hover:bg-green-600 hover:text-homeblue bg-blue-800 '>Get Started</button>
     </div>
    
     <div className="img1 bg-businessblue relative w-full h-[20rem] lg:h-[40rem]">
@@ -51,7 +51,7 @@ export default function Influence () {
    
 <div className="flex flex-col  text-left p-5 lg:pl-16 justify-center">
  <Ball/>
-<h1 className='text-xl font-bold mt-5 text-blue-800 '>Connect</h1>
+<h1 className='text-xl font-bold mt-5 text-homeblue '>Connect</h1>
 <p className='text-neutral-500 leading-7 tracking-wide'>Connect with your fans on a personal level, Learn from them and build your brand positively </p>
 </div>
 </div>
@@ -59,7 +59,7 @@ export default function Influence () {
 <div className=" grid justify-items-center text-center lg:w-1/3  h-full ">
 <div className="flex flex-col text-left p-5 lg:pl-16 justify-center">
 <Ball/>
-<h1 className='text-xl font-bold mt-5 text-blue-800 '>Earn</h1>
+<h1 className='text-xl font-bold mt-5 text-homeblue '>Earn</h1>
 <p className='text-neutral-500 leading-7 tracking-wide'>Just like creating content, create circles at zero cost and earn recurring monthly income</p>
 </div>
 </div>
@@ -67,7 +67,7 @@ export default function Influence () {
 <div className=" grid justify-items-center text-center lg:w-1/3 mb-5  h-full ">
 <div className="flex flex-col text-left p-5 lg:pl-16 justify-center">
     <Ball/>
-<h1 className='text-xl mt-5 font-bold text-blue-800 '>Influence</h1>
+<h1 className='text-xl mt-5 font-bold text-homeblue '>Influence</h1>
 <p className='text-neutral-500 leading-7 tracking-wide'>um is simply dummy text of the printing and typesetting indus tryum is simply dummy </p>
 </div>
 </div>

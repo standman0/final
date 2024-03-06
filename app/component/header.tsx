@@ -164,14 +164,14 @@ export default function Example() {
                     >
                       <div className="flex h-11 w-11 flex-none items-center justify-center rounded-full bg-iconblue group-hover:bg-white">
                         <item.icon
-                          className="h-6 w-6 text-icon group-hover:text-blue-900"
+                          className="h-6 w-6 text-icon group-hover:text-homeblue"
                           aria-hidden="true"
                         />
                       </div>
                       <div className="flex-auto">
                         <Link
                           href={item.href}
-                          className="block font-semibold text-blue-900 text-md"
+                          className="block font-semibold text-homeblue text-md"
                         >
                           {item.name}
                           <span className="absolute inset-0" />
@@ -210,14 +210,14 @@ export default function Example() {
                     >
                       <div className="flex h-11 w-11 flex-none items-center justify-center rounded-full bg-iconblue group-hover:bg-white">
                         <item.icon
-                          className="h-6 w-6 text-icon group-hover:text-blue-900"
+                          className="h-6 w-6 text-icon group-hover:text-homeblue"
                           aria-hidden="true"
                         />
                       </div>
                       <div className="flex-auto">
                         <Link
                           href={item.href}
-                          className="block font-semibold text-blue-900 text-md"
+                          className="block font-semibold text-homeblue text-md"
                         >
                           {item.name}
                           <span className="absolute inset-0" />
@@ -248,7 +248,7 @@ export default function Example() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <button
             type="button"
-            className="relative inline-flex items-center rounded-md border border-transparent bg-blue-900 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+            className="relative inline-flex items-center rounded-md border border-transparent bg-homeblue px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           >
             Get Started
           </button>

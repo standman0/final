@@ -21,7 +21,7 @@ export default function Business () {
 
                 <div className="flex lg:flex-row flex-col text-base overflow-hidden w-full h-full">
                     <div className="lg:w-1/2 p-6 w-full h-full">
-                        <div className='mt-12 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-blue-800 shadow-md cursor-pointer'>
+                        <div className='mt-12 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-homeblue shadow-md cursor-pointer'>
                             Business
                         </div>
                         <div className=" pt-10 items-center w-full lg:w-8/12 h-fit ">
@@ -31,7 +31,7 @@ export default function Business () {
                             <p className='text-neutral-400 pt-5 texl-2xl'>Collect payment with myCircle integratable payment api and enjoy 10x business sales. myCircle offers financially verified, willing to pay customers. Build functional leads and sales pipeline with bankable customers.</p>
 
                         </div>
-                        <button className='lg:px-14 mt-6 lg:py-4 px-2 py-2 rounded-md  hover:bg-green-600 text-sm hover:text-blue-600 bg-blue-800 '>Get Started</button>
+                        <button className='lg:px-14 mt-6 lg:py-4 px-2 py-2 rounded-md  hover:bg-green-600 text-sm hover:text-homeblue bg-blue-800 '>Get Started</button>
                     </div>
 
                     <div className="img1 relative bg-businessblue w-full h-[23rem] lg:w-1/2 lg:h-full ">

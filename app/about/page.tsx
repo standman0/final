@@ -69,7 +69,7 @@ export default function Product() {
                     <div className="w-full md:w-1/3 mt-4 md:mt-0">
                         <div className="bg-white rounded-xl shadow-2xl p-4 md:p-6">
                         <Arrow/>
-                            <h1 className="text-xl md:text-2xl font-bold text-blue-800 my-3">Our Vision</h1>
+                            <h1 className="text-xl md:text-2xl font-bold text-homeblue my-3">Our Vision</h1>
                             <p className="text-neutral-500 leading-7 text-base">To revolutionize the way people save and invest by fostering a sense of community, accountability and financial empowerment.</p>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ export default function Product() {
                     <div className="w-full md:w-1/3 mt-4 md:mt-0">
                         <div className="bg-white rounded-xl shadow-2xl p-4 md:p-6">
                         <Arrow/>
-                            <h1 className="text-xl md:text-2xl font-bold text-blue-800 my-3">Our Mission</h1>
+                            <h1 className="text-xl md:text-2xl font-bold text-homeblue my-3">Our Mission</h1>
                             <p className="text-neutral-500 leading-7 text-base">To revolutionize the way people save and invest by fostering a sense of community, accountability and financial empowerment.</p>
                         </div>
                     </div>

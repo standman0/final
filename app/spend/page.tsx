@@ -21,7 +21,7 @@ export default function Spend () {
            
                 <div className=" flex flex-col  md:pl-16 lg:h-[40rem] text-base md:flex-row w-full border-b-0">
                     <div className="ml-4 mb-4">
-                    <div className='mt-16  px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-blue-700  cursor-pointer'>
+                    <div className='mt-16  px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-homeblue  cursor-pointer'>
                     Spend
                 </div>
                          <div className=" pt-10 items-center w-full md:w-8/12 h-fit bg-white">
@@ -31,7 +31,7 @@ export default function Spend () {
                         <p className='text-neutral-400 pt-5 texl-2xl'>Swap&apos;s money transfer feature is engineered for speed and security. Whether you&apos;re sending money to family abroad or settling international business transactions, our platform ensures that your funds are transferred swiftly and securely.</p>
 
                     </div>
-                     <button className='px-14 mt-14 py-4 rounded-md  hover:bg-green-600 hover:text-blue-600 bg-blue-800 '>Get Started</button>
+                     <button className='px-14 mt-14 py-4 rounded-md  hover:bg-green-600 hover:text-homeblue bg-blue-800 '>Get Started</button>
                     </div>
                    
                     <div className="img1 bg-spendgreen lg:w-full relative h-[40rem] w-full lg:h-auto ">
@@ -53,7 +53,7 @@ export default function Spend () {
         <div className="grid justify-items-center text-center w-full pt-6 mb:w-1/3 mb-6 h-full">
   <div className="flex flex-col text-left pl-6 mb:pl-16 justify-center">
     <Ball/>
-    <h1 className='text-xl font-bold pt-7 text-blue-800 '>Expense</h1>
+    <h1 className='text-xl font-bold pt-7 text-homeblue '>Expense</h1>
     <p className='text-neutral-500 leading-7 tracking-wide'>Leverage your expense to create savings for you. Eat, shop, drink and flex as you save</p>
   </div>
 </div>
@@ -61,7 +61,7 @@ export default function Spend () {
         <div className="  grid justify-items-center w-full pt-6 text-center mb-6 mb:w-1/3  h-full ">
             <div className="flex flex-col text-left mb:pl-16 pl-6 justify-center">
             <Ball/>
-                <h1 className='text-xl font-bold pt-7 text-blue-800 '>Discount</h1>
+                <h1 className='text-xl font-bold pt-7 text-homeblue '>Discount</h1>
                 <p className='text-neutral-500 leading-7 tracking-wide'>As you spend, you earn as high as 30% in discount that auto saves in your wallet</p>
             </div>
         </div>
@@ -69,7 +69,7 @@ export default function Spend () {
         <div className=" grid justify-items-center w-full text-center mb:w-1/3 pt-6  h-full ">
             <div className="flex flex-col text-left mb:pl-16 pl-6 justify-center">
             <Ball/>
-                <h1 className='text-xl font-bold pt-7 text-blue-800 '>Intrest</h1>
+                <h1 className='text-xl font-bold pt-7 text-homeblue '>Intrest</h1>
                 <p className='text-neutral-500 leading-7 tracking-wide'>Your discount also earns interest and this is available to spend or withdraw every 30 days</p>
             </div>
         </div>

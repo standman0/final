@@ -98,7 +98,7 @@ export default function Example() {
                     <li className="font-light" key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-500 hover:text-blue-900"
+                        className="text-base text-gray-500 hover:text-homeblue"
                       >
                         {item.name}
                       </a>

@@ -23,7 +23,7 @@ export default function Product () {
            
                 <div className=" flex overflow-x-hidden lg:max-h-[42rem] text-base flex-col lg:flex-row overflow-hidden ">
                     <div className="p-5">
-                    <div className='lg:mt-12 mt-10 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-blue-700'>
+                    <div className='lg:mt-12 mt-10 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-homeblue'>
                     Earn
                 </div>
                          <div className=" pt-5 items-center lg:w-8/12 h-fit bg-white">
@@ -33,7 +33,7 @@ export default function Product () {
                         <p className='text-neutral-400 pt-5 texl-2xl'>For every circle group created, you earn a percentage of the interest generated on savings accrued by your groups. You unlock a new income level for every user milestones reached.  more circles with o created the more you earn</p>
 
                     </div>
-                     <button className='lg:px-14 mt-14 lg:py-4 px-4 py-3 rounded-md  hover:bg-green-600 hover:text-blue-600 bg-blue-800 '>Get Started</button>
+                     <button className='lg:px-14 mt-14 lg:py-4 px-4 py-3 rounded-md  hover:bg-green-600 hover:text-homeblue bg-blue-800 '>Get Started</button>
                     </div>
                    
                     <div className="img1 bg-socialash pt-10 h-[30rem] w-full relative lg:h-[40rem] flex justify-center overflow-hidden"
@@ -57,7 +57,7 @@ export default function Product () {
         <div className="grid justify-items-center w-full text-center lg:w-1/3  h-full">
   <div className="flex flex-col text-left p-6 lg:pl-16 justify-center">
     <Ball/>
-    <h1 className='text-xl mt-5 font-bold text-blue-800 '>Create</h1>
+    <h1 className='text-xl mt-5 font-bold text-homeblue '>Create</h1>
     <p className='text-neutral-500 leading-7 text-sm tracking-wide'>The more circles created, the more your potential income opportunities</p>
   </div>
 </div>
@@ -65,7 +65,7 @@ export default function Product () {
         <div className=" grid justify-items-center text-center lg:w-1/3  h-full ">
             <div className="flex flex-col text-left p-6 lg:pl-16 justify-center">
                 <Ball/>
-                <h1 className='text-xl mt-5 font-bold text-blue-800 '>Save</h1>
+                <h1 className='text-xl mt-5 font-bold text-homeblue '>Save</h1>
                 <p className='text-neutral-500 leading-7 text-sm tracking-wide'>Earnings generated are subjected to actual prevailing residual interest rate. You earning</p>
             </div>
         </div>
@@ -73,7 +73,7 @@ export default function Product () {
         <div className=" grid justify-items-center text-center w-full lg:w-1/3  h-full ">
             <div className="flex flex-col text-left p-6 lg:pl-16 justify-center">
                 <Ball/>
-                <h1 className='text-xl mt-5 font-bold text-blue-800 '>Cashout</h1>
+                <h1 className='text-xl mt-5 font-bold text-homeblue '>Cashout</h1>
                 <p className='text-neutral-500 text-sm leading-7 tracking-wide'>Pay out your earnings at the end of each months, regardless, it keeps generating income</p>
             </div>
         </div>
@@ -83,7 +83,7 @@ export default function Product () {
          <div className="max-h-[42rem] mb-12 w-full grid  justify-items-center text-center ">
            
             <div className="flex lg:w-2/5 px-4 flex-col gap-4 ">
-                <div className='text-black text-5xl mb-0 pt-32 font-extrabold' >Save <span className='text-blue-700'>Money</span>  </div>
+                <div className='text-black text-5xl mb-0 pt-32 font-extrabold' >Save <span className='text-homeblue'>Money</span>  </div>
             <div className='text-black text-5xl font-extrabold'>Earn <span className='text-earngreena'>
                Money </span> </div>
             <p className='text-neutral-200 mt-2'>As the admin and group creator, earn a percentage of the interest accrued by your circlers, get paid every month</p>
