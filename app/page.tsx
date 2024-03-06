@@ -58,7 +58,7 @@ export default function Home() {
                  
                 /> 
               </span>
-            </h1> <Shade className='absolute top-[7.5rem] left-[8.5rem]'/>
+            </h1> <Shade className='absolute top-[6.2rem] left-[4rem] lg:top-[7.5rem] lg:left-[8.5rem]'/>
             <p className="text-gray-500 pt-5 lg:text-xl text-xl">
               Create or join cross border and multicurrency groups that <br />{" "}
               allows you to become financially free, accountable & build a{" "}
