@@ -1,6 +1,7 @@
 "use client";
 import Header from "./component/header";
 import Footer from "./component/footer";
+import TeamMemberCard from"./component/customer";
 import { TypeAnimation } from "react-type-animation";
 import Sift from "@/app/images/sift.jpg";
 import Hunt from "@/app/images/hunt.jpg";
@@ -92,8 +93,8 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="thirdnav max-w-7xl mt-20 mx-auto aria-label h-full w-full bg-white">
-            <header className="md:flex md:flex-col md:items-center p-6">
+          <div className="thirdnav max-w-7xl md:mt-8 lg:mt-20 mx-auto aria-label h-full w-full bg-white">
+            <header className="lg:flex lg:flex-col lg:mb-16 lg:items-center p-6">
               <button className="mb-4 cursor-default px-4 py-2 text-center rounded-xl font-semibold text-homeblue border-homeblue border bg-slate-300 hover:bg-homeblue hover:text-white">
                 Features
               </button>
@@ -102,8 +103,8 @@ export default function Home() {
               </div>
             </header>
 
-            <div className="tab h-auto lg:h-[32rem] md:mt-12 items-end flex flex-col md:flex-row md:gap-4 justify-center">
-              <div className="relative bg-homeash h-[20rem]  p-6 lg:h-80 w-full md:w-1/3 lg:rounded-2xl">
+            <div className="tab h-auto p-5 gap-4 lg:h-[25rem] md:mt-5 items-end flex flex-col md:flex-row md:gap-3 lg:gap-4 justify-center">
+              <div className="relative md:w-full md:rounded-2xl  bg-homeash h-[20rem]  p-6 lg:h-80 w-full lg:w-1/3 lg:rounded-2xl">
                 <h2 className="text-lg pb-3 lg:text-xl font-bold">Spend</h2>
                 <p className="text-sm text-brandblack lg:text-base">
                   Checkout with my Circle wallet creates an autosave lifestyle.
@@ -116,7 +117,7 @@ export default function Home() {
                   objectFit="cover"
                   src={Earn}
                   alt=""
-                  className="absolute right-14 scale-x-[-1]"
+                  className="absolute  md:w-1/2 right-14 scale-x-[-1]"
                 />
                 <h1 className="absolute flex bottom-8 hover:cursor-pointer text-getstarted">
                   Get Started
@@ -126,7 +127,7 @@ export default function Home() {
                 </h1>
               </div>
 
-              <div className="bg-homeblue h-[20rem] relative p-6 md:mt-5 lg:py-10 md:h-full  lg:w-1/3 lg:rounded-2xl">
+              <div className="bg-homeblue md:h-[30rem] md:rounded-2xl md:w-full lg:h-[27rem] h-[23rem] relative p-6 md:mt-5 lg:py-10  lg:w-1/3 lg:rounded-2xl">
                 <h2 className="text-lg pb-3 text-white lg:text-xl font-bold">
                   Save
                 </h2>
@@ -148,13 +149,13 @@ export default function Home() {
                   objectFit="cover"
                   src={Save}
                   alt=""
-                  className="absolute right-24 lg:mt-10"
+                  className="absolute md:w-1/2 md:right-12 md:top-[13rem] lg:top-[9rem] right-24"
                 />
               </div>
 
-              <div className="bg-homeash relative  h-[20rem] p-6 md:h-80 w-full lg:w-1/3  lg:rounded-2xl">
+              <div className="bg-homeash md:rounded-2xl relative md:1/3 h-[20rem] p-6 md:h-80 w-full lg:w-1/3  lg:rounded-2xl">
                 <h2 className="text-lg pb-3  md:text-xl font-bold">Earn</h2>
-                <p className="text-sm text-brandblack md:text-base">
+                <p className="text-sm text-brandblack lg:text-base">
                   Checkout with my Circle wallet creates an autosave lifestyle.
                   Save on discounts that automatically create savings.
                 </p>
@@ -165,7 +166,7 @@ export default function Home() {
                   objectFit="cover"
                   src={Spend}
                   alt=""
-                  className="absolute left-20"
+                  className="absolute md:w-1/2 left-20"
                 />
                 <h1 className="flex absolute  lg:right-8 bottom-8 hover:scale-200 hover:cursor-pointer text-getstarted">
                   Get Started
@@ -179,8 +180,8 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="max-w-7xl mx-auto aria-label socialize flex flex-col lg:flex-row justify-center md:gap-5 md:my-28 ">
-            <div className=" h-96 w-full py-10 px-7 bg-homelightgreen gap-6 md:rounded-2xl">
+          <div className="max-w-7xl mx-auto aria-label socialize flex flex-col gap-5 px-5 mb-5 lg:flex-row justify-center md:gap-5 md:my-28 ">
+            <div className=" h-96 w-full  py-10 px-7 bg-homelightgreen gap-6 md:rounded-2xl">
               <div className="  px-4 w-24 py-2 text-center rounded-xl font-semibold text-homeblue border-homeblue border hover:bg-homeblue hover:text-white bg-slate-300">
                 Socialize
               </div>
@@ -195,26 +196,26 @@ export default function Home() {
 
               <h1 className=" flex text-getstarted hover:cursor-pointer pt-5">
                 Get Started
-                <span className="ml-2">
+                <span className="ml-2 ">
                   <ArrowUp />
                 </span>
               </h1>
             </div>
-            <div className=" h-96 w-full md:w-[35rem] bg-homemediumgreen lg:rounded-2xl flex items-center justify-center">
-              <Image src={Text} className="w-[20rem] md:w-[35rem]" alt="" />
+            <div className=" h-96 w-full md:w-full lg::w-[35rem] bg-homemediumgreen lg:rounded-2xl flex items-center justify-center">
+              <Image src={Text} className="w-[20rem]  lg:w-[35rem]" alt="" />
             </div>
           </div>
         </section>
 
-        <section className="Business">
-          <div className="max-w-7xl mx-auto flex-col flex lg:flex-row  md:mb-16 md:gap-5">
-            <div className=" h-96 w-[30rem] bg-homepink lg:rounded-2xl">
+        <section className="Business px-5 mt-6">
+          <div className="max-w-7xl mx-auto flex-col gap-5 flex lg:flex-row md:gap-5 md:mb-6 lg:mb-16 lg:gap-5">
+            <div className=" h-96 md:w-full md:flex md:justify-center md:items-center w-full bg-homepink lg:rounded-2xl">
               <Image
                 src={Stack}
                 height={500}
                 width={500}
                 alt=""
-                className="w-9/12 lg:w-full"
+                className="w-full md:w-1/2 lg:w-full"
               />
             </div>
             <div className=" h-96 w-full py-10 px-7 bg-homelightpink gap-6 lg:rounded-2xl">
@@ -250,14 +251,14 @@ export default function Home() {
             <div className="text-black px-5 text-3xl mb-6 font-extrabold">
               Your Security comes first
             </div>
-            <div className="flex rounded-2xl lg:flex-row flex-col gap-9 justify-center px-6 md:px-0">
+            <div className="flex md:grid md:gap-4 md:px-5 md:grid-cols-2 rounded-2xl lg:flex lg:flex-row flex-col gap-9 justify-center px-6 ">
               <div className="lg:h-96 h-[18rem] px-8 p-3 py-16 w-full lg:w-1/3 rounded-2xl bg-white">
                 <Sheild />
                 <h2 className="text-xl pt-8 font-lg pb-6  ">
                   Multi Level Authentication
                 </h2>
                 <p className="text-base text-brandblack md:text-base pt-2">
-                  Hi-Grade, multiple level authentication, keeping your <br />{" "}
+                  Hi-Grade, multiple level authentication, keeping your 
                   money safe at all time
                 </p>
               </div>
@@ -265,8 +266,8 @@ export default function Home() {
                 <Protect />
                 <h2 className="text-xl pt-8 font-lg pb-6  ">Data Protection</h2>
                 <p className="text-base text-brandblack md:text-base pt-2">
-                  Openness and transparency <br /> in handling, storage and{" "}
-                  <br /> processing of your data
+                  Openness and transparency  in handling, storage and
+                   processing of your data
                 </p>
               </div>
               <div className="lg:h-96 h-[18rem]  px-8 py-16 lg:w-1/3 w-full rounded-2xl bg-white">
@@ -275,7 +276,7 @@ export default function Home() {
                   Regulated Autorities{" "}
                 </h2>
                 <p className="text-base text-brandblack md:text-base pt-2">
-                  Highly regulated <br /> corporative society with <br /> CBN
+                  Highly regulated corporative society with  CBN
                   Bank level partnership
                 </p>
               </div>
@@ -283,8 +284,8 @@ export default function Home() {
                 <Laptop />
                 <h2 className="text-xl font-lg pb-6  ">Secure Bank</h2>
                 <p className="text-base text-brandblack md:text-base pt-2">
-                  Partnered with established <br /> financial institutions to{" "}
-                  <br /> double proof all transaction
+                  Partnered with established  financial institutions to
+                   double proof all transaction
                 </p>
               </div>
             </div>
@@ -301,85 +302,18 @@ export default function Home() {
             <div className="text-black p-5 text-3xl  mb-6 font-extrabold">
               Real Voices, Real Experience
             </div>
-            <div className="flex flex-col lg:flex-row w-full h-auto overflow-x-auto rounded-2xl  gap-8 px-6 md:px-0">
-              <div className="lg:w-1/4 w-full shrink-0 grow-0 flex flex-col relative pt-32 h-96 rounded-2xl bg-homeash">
-                <p className="text-center text-lg font-medium">
-                  Openness and transparency <br /> in handling, storage and{" "}
-                  <br /> processing of your data
-                </p>
-                <p className="absolute bottom-20 right-44 text-lg">
-                  Obi Chikason
-                </p>
-                <p className="absolute bottom-14 right-44">Entrepreneur</p>
-                <div className="w-36 h-36 absolute bottom-3 right-7 bg-black rounded-full">
-                  <Image
-                    src={Smile}
-                    height={100}
-                    width={100}
-                    alt=""
-                    objectFit="cover"
-                    className="rounded-full object-cover border border-homeblue w-36 h-36"
-                  />
-                </div>
-              </div>
-              <div className="lg:w-1/4 w-full shrink-0 grow-0 flex flex-col relative pt-32 h-96 rounded-2xl bg-homeash">
-                <p className="text-center text-lg font-medium"></p>
-                <p className="absolute bottom-20 right-44 text-lg">
-                  Obi Chikason
-                </p>
-                <p className="absolute bottom-14 right-44">Entrepreneur</p>
-                <div className="w-36 h-36 absolute bottom-3 right-7 bg-black rounded-full">
-                  <Image
-                    src={Monica}
-                    height={100}
-                    width={100}
-                    alt=""
-                    objectFit="cover"
-                    className="rounded-full object-cover border border-homeblue w-36 h-36"
-                  />
-                </div>
-              </div>
-              <div className="lg:w-1/4 w-full shrink-0 grow-0 flex flex-col relative pt-32 h-96 rounded-2xl bg-homeash">
-                <p className="text-center text-lg font-medium"></p>
-                <p className="absolute bottom-20 right-44 text-lg">
-                  Obi Chikason
-                </p>
-                <p className="absolute bottom-14 right-44">Entrepreneur</p>
-                <div className="w-36 h-36 absolute bottom-3 right-7 bg-black rounded-full">
-                  <Image
-                    src={White}
-                    height={100}
-                    width={100}
-                    alt=""
-                    objectFit="cover"
-                    className="rounded-full object-cover border border-homeblue w-36 h-36"
-                  />
-                </div>
-              </div>
-              <div className="lg:w-1/4 w-full shrink-0 grow-0 flex flex-col relative pt-32 h-96 rounded-2xl bg-homeash">
-                <p className="text-center text-lg font-medium"></p>
-                <p className="absolute bottom-20 right-44 text-lg">
-                  Obi Chikason
-                </p>
-                <p className="absolute bottom-14 right-44">Entrepreneur</p>
-                <div className="w-36 h-36 absolute bottom-3 right-7 bg-black rounded-full">
-                  <Image
-                    src={White}
-                    height={100}
-                    width={100}
-                    alt=""
-                    objectFit="cover"
-                    className="rounded-full object-cover border border-homeblue w-36 h-36"
-                  />
-                </div>
-              </div>
+            <div className="flex flex-col lg:flex-row w-full h-auto overflow-x-auto rounded-2xl gap-8 px-6 md:px-0">
+      <TeamMemberCard src={Smile} comment="Openness and transparency in  handling, storage and processing of your data" name="Obi Chikason" job="Entrepreneur"/>
+      <TeamMemberCard src={Monica} comment="Ricky Osalumese" name="Obi Chikason" job="Entrepreneur" />
+      <TeamMemberCard src={White} comment="Ricky Osalumese" name="Obi Chikason" job="Entrepreneur"/>
+      <TeamMemberCard src={Smile} comment="Ricky Osalumese" name="Obi Chikason" job="Entrepreneur" />
+    </div>
             </div>
-          </div>
         </section>
 
         <section className="flexible fonts[Outfit]  h-[35rem] overflow-hidden bg-black font-Outfit box-border  ">
-          <div className="max-w-7xl mx-auto flex px-16 text-base flex-col lg:flex-row w-full border-b-0">
-            <div className="pt-32 items-center w-full lg:w-2/4 h-fit bg-black">
+          <div className="max-w-7xl mx-auto flex px-16 text-base md:flex-row flex-col lg:flex-row w-full border-b-0">
+            <div className="pt-32 items-center w-full md:w-1/2 lg:w-2/4 h-fit bg-black">
               <h2 className="text-white text-4xl font-bold mb-7 ">
                 What flexible saving look like
               </h2>
@@ -401,12 +335,12 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative bg-black w-full lg:w-2/4 lg:h-fit h-[30rem] ">
+            <div className="relative md:flex md:justify-center bg-black w-full lg:w-2/4 lg:h-fit h-[30rem] ">
               <Image
                 height={500}
                 width={500}
                 src={Phone}
-                className="absolute object-contain  top-36"
+                className="absolute md:w-9/12 md:right-[2rem] object-contain  top-36"
                 alt=""
               />
             </div>

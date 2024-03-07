@@ -19,37 +19,37 @@ export default function Spend () {
             <div className=" max-w-7xl mx-auto aria-label overflow-x-hidden h-fit pb-12 bg-white font-Outfit box-border  ">
 
            
-                <div className=" flex flex-col  md:pl-16 lg:h-[40rem] text-base md:flex-row w-full border-b-0">
+                <div className=" flex flex-col md:pl-10 md:flex-row lg:pl-16 lg:h-[40rem] text-base lg:flex-row w-full border-b-0">
                     <div className="ml-4 mb-4">
                     <div className='mt-16  px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-homeblue  cursor-pointer'>
                     Spend
                 </div>
-                         <div className=" pt-10 items-center w-full md:w-8/12 h-fit bg-white">
-                        <h2 className='text-black text-3xl  md:text-5xl leading-nomal  font-extrabold mb-3 '>
+                         <div className=" pt-10 items-center w-full md:w-3/5 lg:w-8/12 h-fit bg-white">
+                        <h2 className='text-black text-3xl  lg:text-5xl leading-nomal  font-extrabold mb-3 '>
                         Save while spending on merchants
                         </h2>
-                        <p className='text-neutral-400 pt-5 texl-2xl'>Swap&apos;s money transfer feature is engineered for speed and security. Whether you&apos;re sending money to family abroad or settling international business transactions, our platform ensures that your funds are transferred swiftly and securely.</p>
+                        <p className='text-neutral-400 pt-5 md:xl lg:texl-2xl'>Swap&apos;s money transfer feature is engineered for speed and security. Whether you&apos;re sending money to family abroad or settling international business transactions, our platform ensures that your funds are transferred swiftly and securely.</p>
 
                     </div>
-                     <button className='px-14 mt-14 py-4 rounded-md  hover:bg-green-600 hover:text-homeblue bg-blue-800 '>Get Started</button>
+                     <button className='px-14 mt-14 py-4 rounded-md md:px-5 hover:bg-green-600 hover:text-homeblue bg-blue-800 '>Get Started</button>
                     </div>
                    
-                    <div className="img1 bg-spendgreen lg:w-full relative h-[40rem] w-full lg:h-auto ">
+                    <div className="img1 bg-spendgreen md:w-full lg:w-full relative h-[40rem] w-full lg:h-auto ">
                         <Splash
-                        className='absolute left-[12rem] top-2  '
+                        className='absolute left-[12rem] md:left-[-7] top-2  '
                         />
                         <Image
                         width={300}
                         height={300}
                         src={Phone}
                         alt=''
-                        className='object-cover top-[4rem] left-[2rem] lg:top-26  absolute lg:left-4 '
+                        className='object-cover top-[4rem] left-[2rem] lg:top-26 md:left-2  absolute lg:left-4 '
                         />
                     </div>
                 </div>
             </div>
 
-        <div className="max-w-7xl flex-col mx-auto aria-label h-full lg:h-[20rem] flex lg:flex-row rounded-xl bg-spendlblue ">
+        <div className="max-w-7xl flex-col mx-auto aria-label h-full lg:h-[20rem] flex lg:flex-row lg:rounded-xl bg-spendlblue ">
         <div className="grid justify-items-center text-center w-full pt-6 mb:w-1/3 mb-6 h-full">
   <div className="flex flex-col text-left pl-6 mb:pl-16 justify-center">
     <Ball/>
@@ -74,7 +74,7 @@ export default function Spend () {
             </div>
         </div>
          </div>
-         <div className="w-fit max-w-7xl mx-auto aria-label  my-16 h-[49rem]  lg:h-[32rem] flex flex-col lg:flex-row mb:rounded-xl bg-spendblue">
+         <div className="w-fit max-w-7xl mx-auto aria-label  my-16 h-[49rem]  lg:h-[32rem] flex flex-col lg:flex-row lg:rounded-xl bg-spendblue">
             <div className="img w-full lg:w-1/2 h-[20rem] mb:h-full">
             <Image
                         width={1000}

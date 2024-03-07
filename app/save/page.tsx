@@ -13,21 +13,21 @@ export default function Save() {
         <section>
           <div className="md:max-w-7xl md:mx-auto  w-screen overflow-x-hidden md:mb-8 md:pb-4 bg-white font-Outfit box-border">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-base">
-              <div className="md:mt-8">
+              <div className="lg:mt-8">
                 <div className="px-12 py-3 mt-10 ml-5 w-fit bg-homelightpurple rounded-3xl font-semibold text-homeblue ">
                   <span className="text-sm px-6">Save</span>
                 </div>
                 <div className="pt-10 md:pt-3 md:items-center w-full md:w-full bg-white">
-                  <h2 className="text-black text-3xl px-5  md:px-5 md:text-5xl leading-normal font-extrabold md:mb-3">
+                  <h2 className="text-black text-3xl px-5 md:  lg:px-5 lg:text-5xl leading-normal font-extrabold md:mb-3">
                     The reliable way to <br /> save and grow wealth
                   </h2>
-                  <p className="text-gray-500 px-6 pt-5 md:text-xl">
+                  <p className="text-gray-500 px-6 pt-5 lg:text-xl">
                     myCircle provides a reliable and effortless way to save,
                     invest, and build wealth, offering high interest ensuring
                     accountable practical savings that allows you grow wealth
                     seamlessly.
                   </p>
-                  <button className="px-14 mt-6 mb-10 md:mb-6 py-4 rounded-md text-white hover:bg-green-600 hover:bg-homeblue ml-6 bg-homeblue">
+                  <button className="px-14 mt-6 mb-10 md:px-4 lg:mb-6 py-4 rounded-md text-white hover:bg-green-600  ml-6 bg-homeblue">
                     Get Started
                   </button>
                 </div>
@@ -45,10 +45,10 @@ export default function Save() {
             <div className="grid justify-items-center text-center md:w-1/3 w-full h-full">
               <div className="flex flex-col text-left p-7 md:w-full pt-5 md:pl-16 justify-center">
                 <Ball />
-                <h1 className="md:text-xl pt-7 text-2xl font-bold text-homeblue ">
+                <h1 className="lg:text-xl pt-7 text-2xl font-bold text-homeblue ">
                   Maximum Interest
                 </h1>
-                <p className="text-gray-500 md:leading-7 md:tracking-wide">
+                <p className="text-gray-500  lg:leading-7 lg:tracking-wide">
                   Enjoy over 15% in savings interest annually on all circle
                   groups and unused funds in wallet
                 </p>
@@ -85,7 +85,7 @@ export default function Save() {
         <section>
           <div className="mx-auto max-w-7xl   w-full grid  justify-items-center text-center mb-20">
             <div className="flex w-full md:w-2/5 flex-col gap-4 ">
-              <div className="text-black text-3xl md:text-5xl mb-0 pt-24 font-extrabold">
+              <div className="text-black text-3xl  lg:text-5xl mb-0 pt-24 font-extrabold">
                 Start growing wealth <br/>
                 Create or join Circle
               </div>
@@ -94,7 +94,7 @@ export default function Save() {
                 you accountable and committed to your savings goals
               </p>
               <div className="flex justify-center mt-6  gap-6">
-                <button className="px-10 py-3 rounded-md bg-homeblue text-white">
+                <button className="px-10 py-3 rounded-md md:text-sm md:px-7 bg-homeblue text-white">
                   Create a Circle
                 </button>
                 <button className="rounded-md px-10 py-3  bg-homeblue text-white  ">
@@ -106,7 +106,7 @@ export default function Save() {
         </section>
         <section>
           <div className="mx-auto  md:max-w-7xl bg-white">
-            <FinalSaveIllustration className="" />
+            <FinalSaveIllustration />
           </div>
         </section>
       </div>

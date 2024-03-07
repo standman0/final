@@ -88,7 +88,7 @@ export default function Business () {
                      <Form/>
                     </div>
                 </div>
-                <div className="hidden lg:block max-w-7xl mx-auto aria-label w-full lg:w-full mt-10 ">
+                <div className=" max-w-7xl mx-auto aria-label w-full lg:w-full mt-10 ">
                     <BusinessData className='' />
                 </div>
             </div>
