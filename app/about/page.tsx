@@ -16,9 +16,9 @@ export default function Product() {
             <Header />
             <div  aria-label="Global" className=" overflow-hidden bg-white box-border ">
                     <section className=' bg-about'>
-                    <div className="flex flex-col max-w-7xl mx-auto arial-label gap-20 md:flex-row px-4 md:px-16 py-8 md:py-12 lg:py-16 border-b-0">
-                    <div className="md:w-5/12 ">
-                        <div className="mt-6 px-4 md:px-12 py-3 w-fit bg-green-200 rounded-3xl font-semibold text-green-700 shadow-md cursor-pointer">
+                    <div className="flex flex-col max-w-7xl mx-auto arial-label  lg:gap-20  lg:flex-row px-4 lg:px-16 py-8 md:py-12 lg:py-16 border-b-0">
+                    <div className="lg:w-5/12  ">
+                        <div className="mt-6 px-4 lg:px-12 py-3 w-fit bg-green-200 rounded-3xl font-semibold text-green-700 shadow-md cursor-pointer">
                             About Us
                         </div>
                         <div className="pt-10">
@@ -55,37 +55,37 @@ export default function Product() {
 
                     <section className=' '>
                     <div className="w-full max-w-7xl mx-auto arial-label mt-14 h-auto md:h-80 flex flex-col md:flex-row gap-4 rounded-xl bg-white p-4 md:p-0">
-                    <div className="w-full md:w-8/12">
-                    <div className="text-center p-2 w-32 rounded-3xl mb-10 ml-16 bg-green-200 font-semibold text-green-500 shadow-md">
+                    <div className="w-full lg:w-8/12">
+                    <div className="text-center p-2 w-32 md:ml-4 rounded-3xl md:mb-2 mb-10 ml-16 bg-green-200 font-semibold text-green-500 shadow-md">
                            Our Vision
                         </div>
                         <div className="flex flex-col justify-center h-full">
                             
-                            <h1 className="text-3xl md:text-4xl font-extrabold mb-6 text-black pl-4 md:pl-16">Building an accountable<br />community of savers</h1>
-                            <p className="text-neutral-500 leading-7 text-base pl-4 md:pl-16">Our Goal is to provide software solutions that streamline work processes, enhance productivity, improve life and enable business scalability</p>
+                            <h1 className="text-3xl md:text-2xl lg:text-4xl font-extrabold mb-6 text-black pl-4 lg:pl-16">Building an accountable<br />community of savers</h1>
+                            <p className="text-neutral-500 md:text-sm leading-7 text-base pl-4 lg:pl-16">Our Goal is to provide software solutions that streamline work processes, enhance productivity, improve life and enable business scalability</p>
                         </div>
                     </div>
 
-                    <div className="w-full md:w-1/3 mt-4 md:mt-0">
+                    <div className="w-full md:w-2/5 lg:w-1/3 mt-4 md:mt-0">
                         <div className="bg-white rounded-xl shadow-2xl p-4 md:p-6">
                         <Arrow/>
-                            <h1 className="text-xl md:text-2xl font-bold text-homeblue my-3">Our Vision</h1>
-                            <p className="text-neutral-500 leading-7 text-base">To revolutionize the way people save and invest by fostering a sense of community, accountability and financial empowerment.</p>
+                            <h1 className="text-xl lg:text-2xl font-bold text-homeblue my-3">Our Vision</h1>
+                            <p className="text-neutral-500 leading-7 md:text-sm text-base">To revolutionize the way people save and invest by fostering a sense of community, accountability and financial empowerment.</p>
                         </div>
                     </div>
 
-                    <div className="w-full md:w-1/3 mt-4 md:mt-0">
+                    <div className="w-full md:w-2/5  lg:w-1/3 mt-4 md:mt-0">
                         <div className="bg-white rounded-xl shadow-2xl p-4 md:p-6">
                         <Arrow/>
-                            <h1 className="text-xl md:text-2xl font-bold text-homeblue my-3">Our Mission</h1>
-                            <p className="text-neutral-500 leading-7 text-base">To revolutionize the way people save and invest by fostering a sense of community, accountability and financial empowerment.</p>
+                            <h1 className="text-xl  lg:text-2xl font-bold text-homeblue my-3">Our Mission</h1>
+                            <p className="text-neutral-500 md:text-sm leading-7 text-base">To revolutionize the way people save and invest by fostering a sense of community, accountability and financial empowerment.</p>
                         </div>
                     </div>
                 </div>
                     </section>
 
                     <section className='' >
-                    <div className="flex max-w-7xl mx-auto flex-col md:items-start item center bg-white px-6 md:px-0">
+                    <div className="flex max-w-7xl md:px-5 mx-auto flex-col md:items-start item center bg-white px-6 ">
     <div className="py-4 md:py-8">
         <div className="ml-2 px-6 md:px-10 py-2 bg-green-200 rounded-3xl font-semibold text-green-500">
             Team
@@ -137,59 +137,6 @@ export default function Product() {
                 
             </div>
         </div>
-
-
-                        {/* <div className="p-8 flex flex-col justify-center mb-5 md:px-24  rounded-2xl bg-aboutgray">
-                            <div className=" h-44 lg:w-48 mb-8  rounded-full ">
-                            <Image 
-                            src={Ricky} 
-                            alt='' 
-                            height={1000}
-                            width={1000} 
-                            objectFit="contain"
-                            className='rounded-full h-full w-full object-cover'
-                            
-                            /> 
-                            </div>
-                            <div className="">
-                                <h1 className='font-bold text-xl mb-5 text-black text-center' >Ricky Osalumese</h1>
-                                <h1 className='font-bold text-xl text-black text-center'>CEO</h1>
-                            </div>
-                        </div>
-                        <div className="p-8 flex flex-col mb-5 justify-center md:px-24 rounded-2xl bg-aboutblue">
-                        
-                        <div className=" h-44 w-44 mb-8 rounded-full ">
-                        <Image 
-                            src={Monica} 
-                            alt='' 
-                            height={1000}
-                            width={1000} 
-                            objectFit="contain"
-                            className='rounded-full h-full object-cover'
-                            
-                            /> 
-                        </div>
-                                <h1 className='font-bold text-xl mb-5 text-black text-center' >Monica Owobiyi</h1>
-                                <h1 className='font-bold text-xl text-black text-center'>Operations</h1>
-                            
-                        </div>
-                        <div className=" flex flex-col h- justify-center md:px-24 rounded-2xl bg-aboutgreen">
-                       
-                        <div className=" h-44 w-[12rem] mb-8  rounded-full ">
-                        <Image 
-                            src={Larry} 
-                            alt='' 
-                            height={500}
-                            width={500} 
-                            objectFit="contain"
-                            className='rounded-full h-full object-cover'
-                            
-                            /> 
-
-                                <h1 className='font-bold text-xl mb-5 text-black text-center' >Larry Osahon</h1>
-                                <h1 className='font-bold text-xl text-black text-center'>Product</h1>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
                     </section>
@@ -219,7 +166,7 @@ export default function Product() {
                             />                            
                         </div>
                     </div>
-                    <div className="img hidden md:block w-full md:w-2/4 rounded-xl">
+                    <div className="img hidden md:block w-full md:w-1/2 lg:w-2/4 rounded-xl">
                     <Image 
                             src={Coins} 
                             alt='' 

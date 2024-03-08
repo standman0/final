@@ -16,10 +16,10 @@ export default function Business () {
         
         <div className="business overflow-hidden bg-white">
             <Header />
-            <div className="max-w-7xl mx-auto aria-label overflow-hidden lg:h-[42rem] mb-10 font-Outfit box-border  ">
+            <div className="max-w-7xl mx-auto aria-label overflow-hidden md:h-[32rem] lg:h-[42rem] mb-10 font-Outfit box-border  ">
 
 
-                <div className="flex lg:flex-row flex-col text-base overflow-hidden w-full h-full">
+                <div className="flex lg:flex-row md:flex-row flex-col text-base overflow-hidden w-full h-full">
                     <div className="lg:w-1/2 p-6 w-full h-full">
                         <div className='mt-12 px-12 py-3 w-fit  bg-gray-200 rounded-3xl font-semibold text-homeblue shadow-md cursor-pointer'>
                             Business
@@ -34,31 +34,31 @@ export default function Business () {
                         <button className='lg:px-14 mt-6 lg:py-4 px-2 py-2 rounded-md  hover:bg-green-600 text-sm hover:text-homeblue bg-blue-800 '>Get Started</button>
                     </div>
 
-                    <div className="img1 relative bg-businessblue w-full h-[23rem] lg:w-1/2 lg:h-full ">
+                    <div className="img1 relative bg-businessblue md:h-full md:w-full h-[23rem] lg:w-1/2 lg:h-full ">
                         <Image
                         src={Chow}
                         alt=''
                         height={1000}
                         width={330}
-                        className='z-10 w-1/2  right-[2rem] top-[7.5rem]  absolute lg:right-[2rem] lg:top-[15rem]'
+                        className='z-10 w-1/2 md:w-1/2 right-[2rem] top-[7.5rem] md:top-[16rem] absolute lg:right-[2rem] lg:top-[15rem]'
                         />
                         <Image
                         src={Market}
                         alt=''
                         height={570}
                         width={300}
-                        className='z-0 w-1/2 absolute  top-[2rem] right-[8rem] lg:left-24 lg:top-[5.5rem]'
+                        className='z-0 w-1/2 absolute  top-[2rem] right-[8rem] md:top-[11rem] lg:left-24 lg:top-[5.5rem]'
                         />
                     </div>
                 </div>
             </div>
 
-            <div className="max-w-7xl mx-auto aria-label   lg:h-80 flex-col flex lg:flex-row rounded-xl bg-teal-50  ">
+            <div className="max-w-7xl mx-auto aria-label md:flex-row   lg:h-80 flex-col flex lg:flex-row rounded-xl bg-teal-50  ">
                 <div className="flex lg:flex-row flex-col justify-items-center text-center w-full lg:w-1/3  h-full">
-                    <div className="flex flex-col text-left p-6 lg:pl-16 justify-center">
+                    <div className="flex flex-col  text-left p-6 lg:pl-16 justify-center">
                     <Ball/>
                         <h1 className='text-xl mt-5 font-bold text-blue-500 '>Customers</h1>
-                        <p className='text-neutral-500 leading-7 tracking-wide'>Meet myCircle’s star rated financially qualified customers with willingness to pay</p>
+                        <p className='text-neutral-500 md:text-sm leading-7 tracking-wide'>Meet myCircle’s star rated financially qualified customers with willingness to pay</p>
                     </div>
                 </div>
 
@@ -66,7 +66,7 @@ export default function Business () {
                     <div className="flex flex-col text-left p-6 lg:pl-16 justify-center">
                     <Ball/>
                         <h1 className='text-xl mt-5 font-bold text-blue-500 '>Sales</h1>
-                        <p className='text-neutral-500 leading-7 tracking-wide'>10X your sales demand using Circle Payment wallet to accept payment on your website</p>
+                        <p className='text-neutral-500 md:text-sm leading-7 tracking-wide'>10X your sales demand using Circle Payment wallet to accept payment on your website</p>
                     </div>
                 </div>
 
@@ -74,7 +74,7 @@ export default function Business () {
                     <div className="flex flex-col text-left p-6 lg:pl-16 justify-center">
                         <Ball/>
                         <h1 className='text-xl mt-5 font-bold text-blue-500 '>Turnover</h1>
-                        <p className='text-neutral-500 leading-7 tracking-wide'>Breakeven fast and  Maximise profitability with recurring sales from Circle users  </p>
+                        <p className='text-neutral-500 md:text-sm leading-7 tracking-wide'>Breakeven fast and  Maximise profitability with recurring sales from Circle users  </p>
                     </div>
                 </div>
             </div>

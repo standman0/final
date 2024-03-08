@@ -2,6 +2,7 @@
 import Header from "./component/header";
 import Footer from "./component/footer";
 import TeamMemberCard from"./component/customer";
+import Animation from "./component/animax";
 import { TypeAnimation } from "react-type-animation";
 import Sift from "@/app/images/sift.jpg";
 import Hunt from "@/app/images/hunt.jpg";
@@ -34,9 +35,9 @@ export default function Home() {
     <>
       <Header />
       <div className="overflow-hidden">
-        <section className="homepage max-w-7xl  mx-auto aria-label overflow-hidden h-lvl px-6 md:px-3 bg-white font-Outfit box-border  ">
+        <section className="homepage max-w-7xl lg:max-h-fit mx-auto aria-label overflow-hidden h-lvl px-6 md:px-3 bg-white font-Outfit box-border  ">
           <div className="flex max-w-8xl lg:flex-row lg:px-3 md:px-3 flex-col  text-base border-b-0">
-            <div className="lg:w-2/3 lg:pr-[10rem] w-full pt-16 relative  h-fit bg-white">
+            <div className="lg:w-1/2 lg:pr-[10rem] w-full pt-16 relative  h-fit bg-white">
               <h1 className="text-black  text-4xl lg:text-5xl font-black leading-tight md:leading-normal">
                 Join a <span className="text-homeblue">Circle </span> that
                 allows you
@@ -67,14 +68,19 @@ export default function Home() {
               </p>
               <div className="firstimg gap-8 flex pt-16">
                 <a className="hover:cursor-pointer" href="http://">
-                  {" "}
-                  <Google class />
+                  
+                  <Google  />
                 </a>
                 <a className="hover:cursor-pointer" href="http://">
                   <Apple />
                 </a>
+
+
               </div>
             </div>
+            <div className="lg:w-1/2    bg-white">
+                    <Animation/>
+                    </div>
           </div>
           <div className="feature grid items-start w-full mt-32 lg:mb-10">
             <h2 className="text-black md:text-center font-semibold text-2xl mb-8">
@@ -207,7 +213,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="Business px-5 mt-6">
+        <section className="Business px-5 my-6">
           <div className="max-w-7xl mx-auto flex-col gap-5 flex lg:flex-row md:gap-5 md:mb-6 lg:mb-16 lg:gap-5">
             <div className=" h-96 md:w-full md:flex md:justify-center md:items-center w-full bg-homepink lg:rounded-2xl">
               <Image

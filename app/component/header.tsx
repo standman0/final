@@ -97,10 +97,6 @@ const company = [
   },
 ];
 
-const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
-];
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
@@ -294,7 +290,7 @@ export default function Example() {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
-                        {[...products, ...callsToAction].map((item) => (
+                        {[...products,].map((item) => (
                           <Disclosure.Button
                             key={item.name}
                             as="a"
