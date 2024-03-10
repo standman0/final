@@ -17,7 +17,7 @@ const AccordionItem: React.FC<FAQ> = ({ question, answer }) => {
 
   return (
     <div className="flex flex-col bg-background mx-[1rem] mb-5 mt-5 md:mt-6 border shadow-sm">
-      <div className="flex px-7 md:p-6 relative cursor-pointer" onClick={toggleAccordion}>
+      <div className="flex p-6 relative cursor-pointer" onClick={toggleAccordion}>
         <div className="font-base flex-1">{question}</div>
         <Down
           onClick={toggleAccordion}

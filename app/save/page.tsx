@@ -27,13 +27,13 @@ export default function Save() {
                     accountable practical savings that allows you grow wealth
                     seamlessly.
                   </p>
-                  <button className="px-14 mt-6 mb-10 md:px-4 lg:mb-6 py-4 rounded-md text-white hover:bg-green-600  ml-6 bg-homeblue">
+                  <button className="px-14 mt-6 mb-10 md:px-10 lg:mb-6 py-4 rounded-md text-white hover:bg-green-600  ml-6 bg-homeblue">
                     Get Started
                   </button>
                 </div>
               </div>
 
-              <div className="flex mr-[2rem] w-full h-full items-end justify-center relative md:w-full  bg-green-100">
+              <div className="flex mr-[2rem] w-full h-full items-end justify-center relative md:w-full  bg-teal-50">
                 <PhoneSaveIllustration className="w-[80%] md:w-[95%]" />
               </div>
             </div>
