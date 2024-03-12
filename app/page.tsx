@@ -78,7 +78,7 @@ export default function Home() {
 
               </div>
             </div>
-            <div className="w-[55%] relative bg-white">
+            <div className="lg:w-[55%] relative bg-white">
                     <Animation/>
                     </div>
           </div>
@@ -94,8 +94,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="secondnav max-w-7xl mx-auto aria-label">
-        <iframe width="1300" height="800" src="https://www.youtube.com/embed/lys_5qx9od8?si=C0mOu1N1vURVQFqm" title="YouTube video player"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        <section className="secondnav max-w-7xl w- lg:w-full mx-auto aria-label">
+        <iframe width="1300" height="800" src="https://www.youtube.com/embed/lys_5qx9od8?si=C0mOu1N1vURVQFqm" title="YouTube video player"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" className="lg:w-full md:w-full w-full"></iframe>
         </section>
 
         <section>
