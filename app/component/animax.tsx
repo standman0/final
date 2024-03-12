@@ -35,7 +35,7 @@ const AnimationComponent: React.FC = () => {
     }, []);
 
     return (
-        <div className="animax max-w-xl w-full md:h-[30rem]  lg:h-[30rem] relative aria-label overflow-hidden ">
+        <div className="animax max-w-xl w-full md:h-[30rem]   lg:h-[30rem] relative aria-label overflow-hidden ">
             <Circle className='circle absolute left-[10rem]  top-[5rem]'/>
             <Line1 className='line1 absolute left-[11.25rem]  top-[10.75rem] '/>
             <Line2 className='line2 absolute left-[11.25rem]  top-[10.75rem] '/>

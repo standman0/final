@@ -84,6 +84,7 @@ export default function Influence() {
         <div className="img md:rounded-xl md:px-7  h-40  lg:rounded-xl hidden md:block">
           <Image
             src={Bulb}
+            alt=""
             className="object-contain md:rounded-2xl lg:rounded-2xl"
           />
         </div>
