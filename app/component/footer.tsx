@@ -25,7 +25,7 @@ const navigation = {
   legal: [
     { name: "FAQ", href: "/faq" },
     { name: "Support", href: "#" },
-    { name: "info@mycircle.finance", href: "#" },
+    { name: "info@mycircle.africa", href: "#" },
   ],
   social: [
     {

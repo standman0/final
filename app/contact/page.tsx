@@ -52,7 +52,7 @@ export default function Question() {
                 <p className="text-sm text-brandblack mb-4 mt-4">
                   Email us at{" "}
                   <span className="ml-3 text-sm font-bold">
-                    info@myCircle.finance
+                    info@myCircle.africa
                   </span>
                 </p>
                 <p className="text-sm text-brandblack mb-4 mt-8  ">
@@ -102,9 +102,9 @@ export default function Question() {
                   Our support team is ever ready to provide assistance to
                   whatever the problem you may be facing
                 </p>
-                <a href="/faq">
+                <a href="">
                   <button className="bg-homeblue px-3 py-2 text-white rounded-md ">
-                    See all FAQ
+                    Chat with us
                   </button>
                 </a>
               </div>
