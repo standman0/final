@@ -8,7 +8,6 @@ import Sift from "@/app/images/sift.jpg";
 import Hunt from "@/app/images/hunt.jpg";
 import Start from "@/app/images/startupboot.jpg";
 import Angel from "@/app/images/angels.jpg";
-import Caro from "@/app/images/Caro.png";
 import Image from "next/image";
 import Google from "@/public/play-store.svg";
 import Apple from "@/public/apple-store.svg";
@@ -27,6 +26,15 @@ import Sheild from "@/public/sheild.svg";
 import Laptop from "@/public/laptop.svg";
 import Protect from "@/public/protect.svg";
 import Shade from "@/public/shade.svg";
+import Alph from "@/public/alph.png";
+import Nuru from "@/public/nuru.png";
+import Obi from "@/public/Obi.png";
+import Amee from "@/public/amee.png";
+import Grace from "@/public/grace.png";
+import Rekya from "@/public/rekya.png";
+import Alex from "@/public/alex.png";
+import Saidu from "@/public/sadiu.png";
+import Emerald from "@/public/emerald.png";
 
 const ANIMATION_DURATION = 2000;
 
@@ -324,31 +332,74 @@ export default function Home() {
               <TeamMemberCard
                 src={Smile}
                 comment="myCircle is not just a savings app; it's a financial empowerment tool. The combination of social interaction and automatic savings has completely changed the way I approach my finances. Highly recommend it to anyone serious about building wealth."
-                name="Obi Chikason"
-                job="Entrepreneur"
+                name="Nathan A."
+                job="Techie"
                 index={1}
               />
               <TeamMemberCard
-                src={Monica}
+                src={Amee}
                 comment="myCircle is not just a savings app; it's a financial empowerment tool. The combination of social interaction and automatic savings has completely changed the way I approach my finances. Highly recommend it to anyone serious about building wealth."
-                name="Obi Chikason"
-                job="Entrepreneur"
+                name="Ameeda s."
+                job="Human Resources"
                 index={2}
               />
               <TeamMemberCard
-                src={White}
+                src={Alex}
                 comment="Using myCircle has transformed the way I save money. The social savings aspect makes it fun and engaging, and I've seen a significant boost in my savings since joining."
-                name="Obi Chikason"
+                name="Alexandra G."
                 job="Entrepreneur"
                 index={3}
               />
               <TeamMemberCard
-                src={Smile}
+                src={Emerald}
                 comment="I love the automatic savings feature! Being able to save a portion of my spending through merchant discounts is genius. It's like building wealth effortlessly."
-                name="Obi Chikason"
-                job="Entrepreneur"
+                name="Emerald M."
+                job="Product Manager"
                 index={4}
               />
+              <TeamMemberCard
+                src={Saidu}
+                comment="myCircle has created a community of like-minded individuals focused on financial responsibility. The group dynamics and shared goals make saving less daunting and more enjoyable."
+                name="Saidu T."
+                job="Content Creator"
+                index={5}
+              />
+              <TeamMemberCard
+                src={Nuru}
+                comment="As a young earner, myCircle has given me a platform to save without feeling restricted. The social aspect and merchant discounts make it a win-win for my financial goals."
+                name="Nurudeen A."
+                job="Trader"
+                index={6}
+              />
+              <TeamMemberCard
+                src={Alph}
+                comment="The discounts from partner merchants are a game-changer. I've saved more money than I thought possible, and it's become a habit I don't want to break s i offer discount also using the payment page"
+                name="Alphonsus O."
+                job="Business Woman"
+                index={7}
+              />
+              <TeamMemberCard
+                src={Rekya}
+                comment="The myCircle team is responsive and committed to improving the user experience. It's refreshing to see a fintech company genuinely care about its users."
+                name="Rekya S."
+                job="Accountant"
+                index={8}
+              />
+              <TeamMemberCard
+                src={Grace}
+                comment="The transparency in tracking my savings progress motivates me to stay on top of my financial goals. myCircle has turned saving into a positive and rewarding experience."
+                name="Grace L."
+                job="Sales"
+                index={9}
+              />
+              <TeamMemberCard
+                src={Obi}
+                comment="The myCircle concept is brilliant. It seamlessly integrates socializing and saving, making the whole process enjoyable. The added bonus of discounts on everyday expenses is a fantastic incentive. It's a must-have for anyone looking to take control of their financial future."
+                name="Obi Chikason"
+                job="Entrepreneur"
+                index={6}
+              />
+
             </div>
           </div>
         </section>
