@@ -1,6 +1,6 @@
 "use client";
 import Footer from "@/app/component/footer";
-import Facebook from "@/public/facebook.svg";
+import LinkedIn from "@/public/linkedin.svg";
 import Twitter from "@/public/twitter.svg";
 import Instagram from "@/public/instagram.svg";
 
@@ -55,41 +55,37 @@ export default function Question() {
                     info@myCircle.africa
                   </span>
                 </p>
-                <p className="text-sm text-brandblack mb-4 mt-8  ">
+                <p className="text-sm text-brandblack mb-4 mt-4">
                   {" "}
                   Whatsapp{" "}
                   <span className="ml-3 font-bold text-sm ">
                     +2348038053478
                   </span>
                 </p>
-                <div className="flex flex-row justify-center">
+                <div className="flex flex-row">
                   <div className="flex">
-                    <a href="">
-                      {" "}
-                      <Facebook />
-                      <h2 className="text-sm hover:cursor-pointer font-semibold mx-1 text-homeblue">
-                        myCircle_H2
-                      </h2>
+                    <a className="flex mr-3" target="_blank" href="https://www.linkedin.com/company/mycircle-africa">
+                      <LinkedIn />
+                      <span className="text-sm font-semibold mx-1 text-homeblue">
+                        myCircle
+                      </span>
                     </a>{" "}
                   </div>
 
                   <div className="flex">
-                    <a href="">
-                      {" "}
-                      <Twitter />{" "}
-                      <h2 className="text-sm hover:cursor-pointer  font-semibold text-homeblue mx-1">
-                        myCircle_H2
-                      </h2>
+                    <a className="flex mr-3" target="_blank" href="https://twitter.com/myCircleAfrica">
+                      <Twitter />
+                      <span className="text-sm  font-semibold text-homeblue mx-1">
+                        myCircle
+                      </span>
                     </a>
                   </div>
                   <div className="flex">
-                    {" "}
-                    <a href="">
-                      {" "}
+                    <a className="flex mr-3" target="_blank" href="https://www.instagram.com/mycircleafrica/">
                       <Instagram />
-                      <h2 className="text-sm hover:cursor-pointer  font-semibold text-homeblue ml-1">
-                        myCircle_H2
-                      </h2>
+                      <span className="text-sm  font-semibold text-homeblue ml-1">
+                        myCircle
+                      </span>
                     </a>
                   </div>
                 </div>

@@ -7,6 +7,7 @@ import BusinessData from "@/public/busness.svg";
 import Chow from "@/app/images/Chop.png";
 import Market from "@/app/images/Market.png";
 import Ball from "@/public/ball.svg";
+import SecondaryIntroBox from "../component/secondary-intro";
 
 export default function Business() {
   return (
@@ -20,10 +21,10 @@ export default function Business() {
                 <span className="text-sm px-6">Business</span>
               </div>
               <div className=" pt-10 mb-10 items-center w-full h-fit ">
-                <h2 className="text-black text-3xl lg:text-5xl leading-nomal  font-extrabold mb-3 ">
+                <h2 className="text-black text-3xl lg:text-5xl leading-nomal  font-extrabold mb-3 lg:w-[90%]">
                   Sell to Financially verified customers
                 </h2>
-                <p className="text-neutral-400 pt-5 texl-2xl">
+                <p className="text-gray-500 pt-5 lg:text-xl lg:text-[1.15rem] lg:w-[85%]">
                   Collect payment with myCircle integratable payment api and
                   enjoy 10x business sales. myCircle offers financially
                   verified, willing to pay customers. Build functional leads and
@@ -51,61 +52,40 @@ export default function Business() {
         </div>
 
         <section>
-          <div className=" max-w-7xl mx-auto aria-label h-fit md:h-80 flex flex-col md:flex-row rounded-xl bg-teal-50">
-            <div className="grid justify-items-center text-center md:w-1/3 w-full h-full">
-              <div className="flex flex-col text-left p-7 md:w-full pt-5 md:pl-16 justify-center">
-                <Ball />
-                <h1 className="lg:text-xl pt-7 text-2xl font-bold text-homeblue ">
-                  Customers
-                </h1>
-                <p className="text-gray-500  lg:leading-7 lg:tracking-wide">
-                  Meet myCircle’s star rated financially qualified customers
-                  with willingness to pay
-                </p>
-              </div>
-            </div>
-
-            <div className=" grid justify-items-center text-center w-full md:w-1/3  h-full ">
-              <div className="flex flex-col text-left p-7 md:w-full pt-5 md:pl-16 justify-center">
-                <Ball />
-                <h1 className="md:text-xl text-2xl pt-7 font-bold text-homeblue ">
-                  Sales
-                </h1>
-                <p className="text-gray-500 leading-7 tracking-wide">
-                  10X your sales demand using Circle Payment wallet to accept
-                  payment on your website
-                </p>
-              </div>
-            </div>
-
-            <div className=" grid justify-items-center text-center w-full md:w-1/3  h-full ">
-              <div className="flex flex-col text-left p-7 md:w-full md:pl-16 justify-center">
-                <Ball />
-                <h1 className="md:text-xl text-2xl pt-7 font-bold text-homeblue ">
-                  Turnover
-                </h1>
-                <p className="ext-gray-500 leading-7 tracking-wide">
-                  Breakeven fast and Maximise profitability with recurring sales
-                  from Circle users{" "}
-                </p>
-              </div>
-            </div>
+          <div className=" max-w-7xl mx-auto aria-label h-fit md:h-72 flex flex-col md:flex-row rounded-xl bg-teal-50">
+            <SecondaryIntroBox
+              title="Customers"
+              description="Meet myCircle’s star rated financially qualified customers  with willingness to pay"
+            />
+            <SecondaryIntroBox
+              title="Sales"
+              description="10X your sales demand using Circle Payment wallet to accept payment on your website"
+            />
+            <SecondaryIntroBox
+              title="Turnover"
+              description="Breakeven fast and Maximise profitability with recurring sales from Circle users"
+            />
           </div>
         </section>
 
         <div className="h-fit w-full grid mb-8  lg:justify-items-center text-center ">
           <div className="max-w-7xl mx-auto aria-label flex lg:w-2/4 flex-col gap-4 p-6">
-            <div className="text-black text-3xl lg:text-5xl pt-6 lg:pt-32 font-black w-full">
-              Increase sales and demand for your business
+            <div className="w-full flex justify-center">
+              <div className="text-black text-3xl lg:text-5xl pt-6 lg:pt-20 font-black w-full max-w-xl">
+                Increase sales and demand for your business
+              </div>
             </div>
-            <p className="text-gray-400 mt-2 text-base">
-              Increase sales and turnover by connecting and selling to willing
-              to pay, financially verified customers on myCircle.{" "}
-            </p>
+            <div className="w-full flex justify-center mb-5">
+              <p className="text-gray-400 mt-2 text-base max-w-lg">
+                Increase sales and turnover by connecting and selling to willing
+                to pay, financially verified customers on myCircle.{" "}
+              </p>
+            </div>
+
             <BusinessForm />
           </div>
         </div>
-        <div className=" max-w-7xl mx-auto aria-label w-full lg:w-full mt-10 ">
+        <div className=" max-w-3xl mx-auto aria-label w-full lg:w-full mt-12 ">
           <BusinessData className="" />
         </div>
       </div>

@@ -86,7 +86,7 @@ const company = [
   {
     name: "Team",
     description: "Build strategic funnels that will convert",
-    href: "#",
+    href: "/about#team",
     icon: PlusIcon,
   },
   {

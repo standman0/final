@@ -4,6 +4,7 @@ import Footer from "@/app/component/footer";
 import PhoneSaveIllustration from "@/public/save-phone-illustration.svg";
 import FinalSaveIllustration from "@/public/save-final-illustration.svg";
 import Ball from "@/public/ball.svg";
+import SecondaryIntroBox from "../component/secondary-intro";
 
 export default function Save() {
   return (
@@ -21,7 +22,7 @@ export default function Save() {
                   <h2 className="text-black text-3xl px-5 md:  lg:px-5 lg:text-5xl leading-normal font-extrabold md:mb-3">
                     The reliable way to <br /> save and grow wealth
                   </h2>
-                  <p className="text-gray-500 px-6 pt-5 lg:text-xl">
+                  <p className="text-gray-500 px-6 pt-5 lg:text-[1.15rem] lg:w-[90%]">
                     myCircle provides a reliable and effortless way to save,
                     invest, and build wealth, offering high interest ensuring
                     accountable practical savings that allows you grow wealth
@@ -41,52 +42,26 @@ export default function Save() {
         </section>
 
         <section>
-          <div className=" max-w-7xl mx-auto aria-label h-fit md:h-80 flex flex-col md:flex-row rounded-xl bg-teal-50">
-            <div className="grid justify-items-center text-center md:w-1/3 w-full h-full">
-              <div className="flex flex-col text-left p-7 md:w-full pt-5 md:pl-16 justify-center">
-                <Ball />
-                <h1 className="lg:text-xl pt-7 text-2xl font-bold text-homeblue ">
-                  Maximum Interest
-                </h1>
-                <p className="text-gray-500  lg:leading-7 lg:tracking-wide">
-                  Enjoy over 15% in savings interest annually on all circle
-                  groups and unused funds in wallet
-                </p>
-              </div>
-            </div>
-
-            <div className=" grid justify-items-center text-center w-full md:w-1/3  h-full ">
-              <div className="flex flex-col text-left p-7 md:w-full pt-5 md:pl-16 justify-center">
-                <Ball />
-                <h1 className="md:text-xl text-2xl pt-7 font-bold text-homeblue ">
-                  Automated Savings
-                </h1>
-                <p className="text-gray-500 leading-7 tracking-wide">
-                  Automate your savings by using the auto deposit feature that
-                  lets you save anytime
-                </p>
-              </div>
-            </div>
-
-            <div className=" grid justify-items-center text-center w-full md:w-1/3  h-full ">
-              <div className="flex flex-col text-left p-7 md:w-full md:pl-16 justify-center">
-                <Ball />
-                <h1 className="md:text-xl text-2xl pt-7 font-bold text-homeblue ">
-                  Flexible
-                </h1>
-                <p className="ext-gray-500 leading-7 tracking-wide">
-                  Set flexible Access to your savings or Interest whenever you
-                  want across multiple groups{" "}
-                </p>
-              </div>
-            </div>
+          <div className=" max-w-7xl mx-auto aria-label h-fit md:h-72 flex flex-col md:flex-row rounded-xl bg-teal-50">
+            <SecondaryIntroBox
+              title="Maximum Interest"
+              description="Enjoy over 15% in savings interest annually on all circle groups and unused funds in wallet"
+            />
+            <SecondaryIntroBox
+              title="Automated Savings"
+              description="Automate your savings by using the auto deposit feature that lets you save anytime"
+            />
+            <SecondaryIntroBox
+              title="Flexible"
+              description="Set flexible Access to your savings or Interest whenever you want across multiple groups"
+            />
           </div>
         </section>
         <section>
           <div className="mx-auto max-w-7xl   w-full grid  justify-items-center text-center mb-20">
             <div className="flex w-full md:w-2/5 flex-col gap-4 ">
               <div className="text-black text-3xl  lg:text-5xl mb-0 pt-24 font-extrabold">
-                Start growing wealth <br/>
+                Start growing wealth <br />
                 Create or join Circle
               </div>
               <p className="text-gray-500 mt-2 px-6">
@@ -105,7 +80,7 @@ export default function Save() {
           </div>
         </section>
         <section>
-          <div className="mx-auto  md:max-w-7xl bg-white">
+          <div className="mx-auto  md:max-w-4xl bg-white">
             <FinalSaveIllustration />
           </div>
         </section>

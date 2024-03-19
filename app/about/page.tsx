@@ -111,7 +111,7 @@ export default function Product() {
           </div>
         </section>
 
-        <section className="">
+        <section className="pt-10" id="team">
           <div className="flex max-w-7xl md:px-5 mx-auto flex-col md:items-start item center bg-white px-6 ">
             <div className="text-center p-2 w-32 mb-5 rounded-3xl bg-green-200 font-semibold text-green-500 shadow-md">
               Team
@@ -168,8 +168,8 @@ export default function Product() {
           </div>
         </section>
 
-        <section>
-          <div className="flex max-w-7xl mx-auto arial-label  mb-20 flex-col px-7 md:flex-row gap-7 w-full h-auto md:h-screen mt-20">
+        <section className="px-5">
+          <div className="flex max-w-7xl mx-auto arial-label mb-20 flex-col md:flex-row gap-7 w-full h-auto  mt-20 ">
             <div className="w-full md:w-2/4 h-full flex flex-col md:ml-9 gap-5">
             <div className="text-center p-2 w-32 mb-5 rounded-3xl bg-green-200 font-semibold text-green-500 shadow-md">
                 Our Drive
