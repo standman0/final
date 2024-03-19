@@ -71,10 +71,7 @@ export default function Spend() {
               Spend with ease of mind{" "}
             </h1>
             <p className="text-white text-base lg:w-[75%]">
-              With myCircle, you have the ability to swap currencies in the
-              blink of an eye. Our cutting-edge technology ensures that your
-              transactions are not only swift but also executed at the optimal
-              rates, maximizing the value of every exchange.
+            You not only earn discounts when you spend on myCircle, your discounts are continually in an interest generating mode, creating wealth and additional income for you as you spend.
             </p>
             <div className="flex pt-7 gap-5">
               <Google />

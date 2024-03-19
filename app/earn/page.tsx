@@ -19,7 +19,7 @@ export default function Product() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-base">
               <div className="lg:mt-8">
                 <div className="px-12 py-3 mt-10 ml-5 w-fit bg-homelightpurple rounded-3xl font-semibold text-homeblue ">
-                  <span className="text-sm px-6">Save</span>
+                  <span className="text-sm px-6">Earn</span>
                 </div>
                 <div className="pt-10 md:pt-3 md:items-center w-full md:w-full bg-white">
                   <h2 className="text-black text-3xl px-5 md:  lg:px-5 lg:text-5xl leading-normal font-extrabold md:mb-3">
@@ -84,7 +84,7 @@ export default function Product() {
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto aria-label">
+        <div className="max-w-7xl mb-16 mx-auto aria-label">
           <div className="py-12 lg:rounded-xl bg-spendblue flex flex-col md:flex-row lg:flex-row md:gap-16 lg:h-[28rem] lg:mx-6">
             {/* <div className="img md:w-1/2  lg:w-1/2 h-full"> */}
             <Image
@@ -95,13 +95,10 @@ export default function Product() {
             {/* </div> */}
             <div className="flex flex-col p-4 md:w-1/2 justify-center">
               <h1 className="text-white text-5xl font-extrabold mb-8">
-                Spend with ease of mind{" "}
+              Earning made easy
               </h1>
               <p className="ttext-neutral-500 text-base text-white ">
-                With myCircle, you have the ability to swap currencies in the
-                blink of an eye. Our cutting-edge technology ensures that your
-                transactions are not only swift but also executed at the optimal
-                rates, maximizing the value of every exchange.
+              Earning has never been made easy, with myCircle you seamlessly earn a percent of the interest made within your circle group. The more circle you create, the more members you recruit, the more you earn. Start Earning, Create a Circle Today !
               </p>
               <div className="flex pt-7 gap-5">
                 <Google />

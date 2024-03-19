@@ -29,22 +29,22 @@ export default function Product() {
                   Meet the first set of{" "}
                   <span className="text-green-700">Cyclers</span>
                 </h2>
-                <p className="text-neutral-400 text-sm md:text-lg pt-5">
+                <p className="text-neutral-500 text-sm md:text-lg pt-5">
                   Our story began in 2018, when a group of friends, earning too
                   little to save decided to re-invent saving and investing.
                 </p>
-                <p className="text-neutral-400 text-sm md:text-lg pt-5">
+                <p className="text-neutral-500 text-sm md:text-lg pt-5">
                   After a thorough expense review, against all odds, they
                   scoured several ways of saving that wouldn’t require them to
                   dip into their income. This gave rise to myCircle.
                 </p>
-                <p className="text-neutral-400 text-sm md:text-lg pt-5">
+                <p className="text-neutral-500 text-sm md:text-lg pt-5">
                   A set of ambitious professionals went on to redefine the way
                   saving can be done, stress-free by refocusing on expense
                   optimization, group support, discount purchase, community, and
                   trust.
                 </p>
-                <p className="text-neutral-400 text-sm md:text-xl pt-5">
+                <p className="text-neutral-500 text-sm md:text-xl pt-5">
                   myCircle has gone on to be the easiest way to save and build
                   wealth while building a community of trust.
                 </p>
@@ -75,23 +75,20 @@ export default function Product() {
                   <br />
                   community of savers
                 </h1>
-                <p className="text-neutral-500 md:text-sm leading-7 text-base">
-                  Our Goal is to provide software solutions that streamline work
-                  processes, enhance productivity, improve life and enable
-                  business scalability
+                <p className="text-neutral-500 leading-7 text-base">
+                MyCircle is dedicated to  cultivating a social environment where members not only save collectively but also build meaningful connections. Through innovative solutions, we strive to bridge the gap in financial inclusivity, making responsible saving enjoyable and accessible to all.
                 </p>
               </div>
             </div>
 
             <div className="w-full md:w-2/5 lg:w-1/3 mt-4 md:mt-0">
-              <div className="bg-white rounded-xl shadow-2xl p-4 md:p-6">
+              <div className="bg-white rounded-xl shadow-2xl p-4 md:p-6 md:mt-12">
                 <Arrow />
-                <h1 className="text-xl lg:text-2xl font-bold text-homeblue my-3">
+                <h1 className="text-xl lg:text-xl font-bold text-homeblue my-3">
                   Our Vision
                 </h1>
-                <p className="text-neutral-500 leading-7 md:text-sm text-base">
-                  To revolutionize the way people save and invest by fostering a
-                  sense of community, accountability and financial empowerment.
+                <p className="text-neutral-500 leading-7 text-2xl text-center">
+                Transforming Lives, <br/> Connecting <br/>Communities .....
                 </p>
               </div>
             </div>
@@ -99,12 +96,11 @@ export default function Product() {
             <div className="w-full md:w-2/5  lg:w-1/3 mt-4 md:mt-0">
               <div className="bg-white rounded-xl shadow-2xl p-4 md:p-6">
                 <Arrow />
-                <h1 className="text-xl  lg:text-2xl font-bold text-homeblue my-3">
+                <h1 className="text-xl  lg:text2xl font-bold text-homeblue my-3 ">
                   Our Mission
                 </h1>
-                <p className="text-neutral-500 md:text-sm leading-7 text-base">
-                  To revolutionize the way people save and invest by fostering a
-                  sense of community, accountability and financial empowerment.
+                <p className="text-neutral-500 text-2xl text-center">
+                Empowering <br/>Financial Futures, <br/>One Circle at a Time
                 </p>
               </div>
             </div>

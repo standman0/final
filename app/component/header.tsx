@@ -23,37 +23,37 @@ import Air from "@/public/air.svg";
 const products = [
   {
     name: "Save",
-    description: "Get a better understanding of your traffic",
+    description: "myCircle seamless saving that pays you to save",
     href: "/save",
     icon: GlobeEuropeAfricaIcon,
   },
   {
     name: "Spend",
-    description: "Speak directly to your customers",
+    description: "Pay with myCircle and earn discounts for auto savings",
     href: "/spend",
     icon: Air,
   },
   {
     name: "Socialize",
-    description: "Your customers’ data will be safe and secure",
+    description: "Have fun and build accountable network",
     href: "/socialize",
     icon: Air,
   },
   {
     name: "Business",
-    description: "Connect with third-party tools",
+    description: "Improve business sales, collect payment with myCircle",
     href: "business",
     icon: Air,
   },
   {
     name: "Influencers",
-    description: "Build strategic funnels that will convert",
+    description: "Connect with your fans while building a recurring income ",
     href: "/Influencers",
     icon: PlusIcon,
   },
   {
     name: "Earn",
-    description: "Build strategic funnels that will convert",
+    description: "Earn to save on mycircle, even if you under earn.",
     href: "/earn",
     icon: Recycle,
   },
@@ -61,37 +61,37 @@ const products = [
 const company = [
   {
     name: "About us",
-    description: "Get a better understanding of your traffic",
+    description: "Get to know about myCircle, vision and mission and why we exist",
     href: "/about",
     icon: GlobeEuropeAfricaIcon,
   },
   {
     name: "Blog",
-    description: "Speak directly to your customers",
+    description: "Visit our blogs and zone Join the myCircle community",
     href: "#",
     icon: Recycle,
   },
   {
     name: "Learn",
-    description: "Your customers’ data will be safe and secure",
+    description: "Get more knowledge on how to build wealth and be financially literate. ",
     href: "#",
     icon: Air,
   },
   {
     name: "Careers",
-    description: "Connect with third-party tools",
+    description: "Join our wonderful team Visit our recruitment page",
     href: "#",
     icon: PlusIcon,
   },
   {
     name: "Team",
-    description: "Build strategic funnels that will convert",
+    description: "Meet and know the team and face  behind myCircle.",
     href: "/about#team",
     icon: PlusIcon,
   },
   {
     name: "Contact Us",
-    description: "Build strategic funnels that will convert",
+    description: "Want to peak with us, available 24/5 on calls, emails and all socials.",
     href: "/contact",
     icon: PlusIcon,
   },
@@ -151,16 +151,16 @@ export default function Example() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-lg overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
-                <div className="mx-auto grid max-w-5xl grid-cols-2 gap-3">
+              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-xl overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                <div className="mx-auto grid max-w-7xl grid-cols-2 gap-3">
                   {products.map((item) => (
                     <div
                       key={item.name}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-base leading-6 hover:bg-gray-50"
+                      className="group relative flex items-center gap-x-4 rounded-lg p-4 py-5 text-base leading-6 hover:bg-gray-50"
                     >
-                      <div className="flex h-11 w-11 flex-none items-center justify-center rounded-full bg-iconblue group-hover:bg-white">
+                      <div className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-iconblue group-hover:bg-white">
                         <item.icon
-                          className="h-6 w-6 text-icon group-hover:text-homeblue"
+                          className="h-5 w-5 text-icon group-hover:text-homeblue"
                           aria-hidden="true"
                         />
                       </div>
@@ -197,16 +197,16 @@ export default function Example() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-lg overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
-                <div className="mx-auto grid max-w-5xl grid-cols-2 gap-3">
+              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-xl overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                <div className="mx-auto grid max-w-7xl grid-cols-2 gap-3">
                   {company.map((item) => (
                     <div
                       key={item.name}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-base leading-6 hover:bg-gray-50"
+                      className="group relative flex items-center gap-x-4 rounded-lg p-4 py-5 text-base leading-6 hover:bg-gray-50"
                     >
-                      <div className="flex h-11 w-11 flex-none items-center justify-center rounded-full bg-iconblue group-hover:bg-white">
+                      <div className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-iconblue group-hover:bg-white">
                         <item.icon
-                          className="h-6 w-6 text-icon group-hover:text-homeblue"
+                          className="h-5 w-5 text-icon group-hover:text-homeblue"
                           aria-hidden="true"
                         />
                       </div>

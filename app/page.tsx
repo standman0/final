@@ -235,14 +235,14 @@ export default function Home() {
 
         <section className="Business py-8 md:py-10 lg:py-12">
           <div className="max-w-7xl mx-auto flex-col px-5 flex lg:flex-row gap-8 md:gap-10 lg:gap-5">
-            <div className="md:h-96 h-80 md:w-full flex justify-center items-center w-full bg-homepink rounded-2xl">
+            <div className="md:h-[23rem] h-80 md:w-full flex justify-center items-center w-full bg-homepink rounded-2xl">
               <Image
                 src={Stack}
                 alt=""
                 className="md:h-[inherit] md:w-auto"
               />
             </div>
-            <div className="md:h-96 w-full py-10 px-7 bg-homelightpink gap-6 rounded-2xl">
+            <div className="md:h-[23rem] w-full py-10 px-7 bg-homelightpink gap-6 rounded-2xl">
               <div className="  px-4 w-24 py-2 text-center rounded-xl font-semibold text-homeblue border-homeblue border bg-slate-300 hover:bg-homeblue hover:text-white">
                 Business
               </div>
@@ -262,7 +262,7 @@ export default function Home() {
                   <ArrowUp />
                 </span>
               </h1>
-              </a>-
+              </a>
             </div>
           </div>
         </section>
@@ -278,9 +278,9 @@ export default function Home() {
               Your Security comes first
             </div>
             <div className="flex md:grid md:gap-4 md:px-5 md:grid-cols-2 rounded-2xl lg:flex lg:flex-row flex-col gap-9 justify-center px-6 ">
-              <div className="lg:h-96 h-[18rem] px-8 p-3 py-16 w-full lg:w-1/3 rounded-2xl bg-white">
+              <div className="lg:h-80 h-[18rem] px-8 py-14 w-full lg:w-1/3 rounded-2xl bg-white">
                 <Sheild />
-                <h2 className="text-xl pt-8 font-lg pb-6  ">
+                <h2 className="text-xl pt-8 font-lg pb-6">
                   Multi Level Authentication
                 </h2>
                 <p className="text-base text-brandblack md:text-base pt-2">
@@ -288,17 +288,17 @@ export default function Home() {
                   safe at all time
                 </p>
               </div>
-              <div className="lg:h-96 h-[18rem]  px-8 py-16 w-full lg:w-1/3 rounded-2xl bg-white">
+              <div className="lg:h-80 h-[18rem]  px-8 py-14 w-full lg:w-1/3 rounded-2xl bg-white">
                 <Protect />
-                <h2 className="text-xl pt-8 font-lg pb-6  ">Data Protection</h2>
+                <h2 className="text-xl pt-8 font-lg pb-6">Data Protection</h2>
                 <p className="text-base text-brandblack md:text-base pt-2">
                   Openness and transparency in handling, storage and processing
                   of your data
                 </p>
               </div>
-              <div className="lg:h-96 h-[18rem]  px-8 py-16 lg:w-1/3 w-full rounded-2xl bg-white">
+              <div className="lg:h-80 h-[18rem]  px-8 py-14 lg:w-1/3 w-full rounded-2xl bg-white">
                 <Laptop />
-                <h2 className="text-xl pt-8 font-lg pb-6  ">
+                <h2 className="text-xl pt-8 font-lg pb-6">
                   Regulated Autorities{" "}
                 </h2>
                 <p className="text-base text-brandblack md:text-base pt-2">
@@ -306,9 +306,9 @@ export default function Home() {
                   partnership
                 </p>
               </div>
-              <div className="lg:h-96 h-[18rem]  px-8 py-16 w-full lg:w-1/3 rounded-2xl bg-white">
+              <div className="lg:h-80 h-[18rem]  px-8 py-14 w-full lg:w-1/3 rounded-2xl bg-white">
                 <Laptop />
-                <h2 className="text-xl font-lg pb-6  ">Secure Bank</h2>
+                <h2 className="text-xl pt-8 font-lg pb-6">Secure Bank</h2>
                 <p className="text-base text-brandblack md:text-base pt-2">
                   Partnered with established financial institutions to double
                   proof all transaction
@@ -338,7 +338,7 @@ export default function Home() {
               />
               <TeamMemberCard
                 src={Amee}
-                comment="myCircle is not just a savings app; it's a financial empowerment tool. The combination of social interaction and automatic savings has completely changed the way I approach my finances. Highly recommend it to anyone serious about building wealth."
+                comment="I use myCircle and recommend it to anyone that want to build an accountable saving lifestyle. I have built new communities and business opportunities on myCircle as a premium member. "
                 name="Ameeda s."
                 job="Human Resources"
                 index={2}
@@ -411,11 +411,7 @@ export default function Home() {
                 What flexible saving look like
               </h2>
               <p className="text-neutral-300 texl-2xl">
-                With myCircle, you have the ability to save without an income
-                currencies in the blink of an eye. Our cutting-edge technology
-                ensures that your transactions are not only swift but also
-                executed at the optimal rates, maximizing the values of every
-                exchange
+              With myCircle, you have the ability to save without an income. We understand that one of the biggest challenge to saving is income level.  Our tailor made product takes care of all level of income and non income earners.
               </p>
 
               <div className="firstimg gap-8 flex py-12 mb-10">

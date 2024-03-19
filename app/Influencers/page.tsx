@@ -71,20 +71,16 @@ export default function Influence() {
           </h1>
           <div className="flex text-gray-500 font-medium lg:tracking-wide">
             <CheckRing width="24" />
-            <span className="ml-3">
-              Invest your spare funds, create new income lines
-            </span>
+            <span className="ml-3">Connect with your fans personally</span>
+          </div>
+          <div className="flex text-gray-500 font-medium lg:tracking-wide">
+            <CheckRing width="24" />
+            <span className="ml-3">Help your fans create and build wealth</span>
           </div>
           <div className="flex text-gray-500 font-medium lg:tracking-wide">
             <CheckRing width="24" />
             <span className="ml-3">
-              Expand your net worth and grow financial influence{" "}
-            </span>
-          </div>
-          <div className="flex text-gray-500 font-medium lg:tracking-wide">
-            <CheckRing width="24" />
-            <span className="ml-3">
-              Start your marriage on a strong financial foundation{" "}
+              Earn from your fans through direct interest or get gifted
             </span>
           </div>
           <div className="w-auto bg-black rounded-3xl">
