@@ -76,10 +76,10 @@ export default function Home() {
                 community of financially responsible connections.
               </p>
               <div className="firstimg gap-8 flex pt-16">
-                <a className="hover:cursor-pointer" href="http://">
+                <a className="hover:cursor-pointer" href="#">
                   <Google />
                 </a>
-                <a className="hover:cursor-pointer" href="http://">
+                <a className="hover:cursor-pointer" href="#">
                   <Apple />
                 </a>
               </div>
@@ -415,11 +415,11 @@ export default function Home() {
               </p>
 
               <div className="firstimg gap-8 flex py-12 mb-10">
-                <a className="hover:cursor-pointer" href="http://">
+                <a className="hover:cursor-pointer" href="#">
                   {" "}
                   <Google class />
                 </a>
-                <a className="hover:cursor-pointer" href="http://">
+                <a className="hover:cursor-pointer" href="#">
                   <Apple />
                 </a>
               </div>

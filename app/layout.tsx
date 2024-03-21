@@ -3,6 +3,7 @@ import "./globals.css";
 import { Outfit } from "next/font/google";
 import Script from "next/script";
 import Head from "next/head";
+// import { Toaster } from "react-hot-toast";
 
 const Font = Outfit({
   subsets: ["latin"],
@@ -21,11 +22,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={Font.className}>{children}</body>
-      <Script strategy="lazyOnload" src="https://embed.tawk.to/65f93f11a0c6737bd1225dc6/1hpapsnn3" />
-      <Head>
-        <link rel="icon" href="/circle-logo.png" />
-      </Head>
+      <body className={Font.className}>
+        {children}
+        
+      </body>
+      <Script
+        strategy="lazyOnload"
+        src="https://embed.tawk.to/65f93f11a0c6737bd1225dc6/1hpapsnn3"
+      />
     </html>
   );
 }

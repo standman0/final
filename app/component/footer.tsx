@@ -14,8 +14,8 @@ const navigation = {
   ],
   support: [
     { name: "About", href: "/about" },
-    { name: "Careers", href: "#" },
-    { name: "Blog", href: "#" },
+    { name: "Careers", href: "https://www.linkedin.com/company/mycircle-africa/jobs/" },
+    { name: "Blog", href: "https://mycircleafrica.medium.com/" },
     { name: "Join our community", href: "#" },
   ],
   company: [
@@ -95,11 +95,11 @@ export default function Example() {
               finacially responsible connections.
             </p>
             <div className="store flex gap-6">
-              <a className="hover:cursor-pointer" href="http://">
+              <a className="hover:cursor-pointer" href="#">
                 {" "}
                 <PlayStore />
               </a>
-              <a className="hover:cursor-pointer" href="http://">
+              <a className="hover:cursor-pointer" href="#">
                 <AppStore />
               </a>
             </div>
