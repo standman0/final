@@ -6,8 +6,8 @@ import Image from "next/image";
 import BusinessData from "@/public/busness.svg";
 import Chow from "@/app/images/Chop.png";
 import Market from "@/app/images/Market.png";
-import Ball from "@/public/ball.svg";
 import SecondaryIntroBox from "../component/secondary-intro";
+import { Suspense } from "react";
 
 export default function Business() {
   return (
@@ -82,11 +82,13 @@ export default function Business() {
               </p>
             </div>
 
+          <Suspense>
             <BusinessForm />
+          </Suspense>
           </div>
         </div>
         <div className=" max-w-3xl mx-auto aria-label w-full lg:w-full mt-12 ">
-          <BusinessData className="" />
+            <BusinessData className="" />
         </div>
       </div>
 
