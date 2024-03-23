@@ -76,8 +76,9 @@ const company = [
   {
     name: "Blog",
     description: "Visit our blogs and zone Join the myCircle community",
-    href: "#",
+    href: "https://mycircleafrica.medium.com/",
     icon: Recycle,
+    target: "_blank"
   },
   {
     name: "Learn",
@@ -85,12 +86,14 @@ const company = [
       "Get more knowledge on how to build wealth and be financially literate. ",
     href: "#",
     icon: Air,
+    target: "_blank"
   },
   {
     name: "Careers",
     description: "Join our wonderful team Visit our recruitment page",
-    href: "#",
+    href: "https://www.linkedin.com/company/mycircle-africa/jobs/",
     icon: PlusIcon,
+    target: "_blank"
   },
   {
     name: "Team",
@@ -323,6 +326,7 @@ export default function Example() {
                         <Link
                           href={item.href}
                           className="block font-semibold text-homeblue text-md"
+                          target={item.target || ""}
                         >
                           {item.name}
                           <span className="absolute inset-0" />
