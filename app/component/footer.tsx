@@ -3,6 +3,7 @@ import React from "react";
 import Logo from "@/public/logo.svg";
 import AppStore from "@/public/apple-store.svg";
 import PlayStore from "@/public/play-store.svg";
+import Link from "next/link";
 
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = {
@@ -96,7 +97,6 @@ export default function Example() {
             </p>
             <div className="store flex gap-6">
               <a className="hover:cursor-pointer" href="#">
-                {" "}
                 <PlayStore />
               </a>
               <a className="hover:cursor-pointer" href="#">
@@ -111,12 +111,12 @@ export default function Example() {
                 <ul role="list" className="mt-3 space-y-6">
                   {navigation.solutions.map((item) => (
                     <li className="font-light" key={item.name}>
-                      <a
+                      <Link
                         href={item.href}
                         className="text-base text-gray-500 hover:text-homeblue"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -126,12 +126,12 @@ export default function Example() {
                 <ul role="list" className="mt-3 space-y-6">
                   {navigation.support.map((item) => (
                     <li className="font-light" key={item.name}>
-                      <a
+                      <Link
                         href={item.href}
                         className="text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -143,12 +143,12 @@ export default function Example() {
                 <ul role="list" className="mt-3 space-y-6">
                   {navigation.company.map((item) => (
                     <li className="font-light" key={item.name}>
-                      <a
+                      <Link
                         href={item.href}
                         className="text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -158,12 +158,12 @@ export default function Example() {
                 <ul role="list" className="mt-3 space-y-6">
                   {navigation.legal.map((item) => (
                     <li className="font-light" key={item.name}>
-                      <a
+                      <Link
                         href={item.href}
                         className="text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -173,7 +173,7 @@ export default function Example() {
                   </h3>
                   <div className="flex space-x-2">
                     {navigation.social.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
                         href={item.href}
                         className="text-gray-500 hover:text-gray-500"
@@ -181,7 +181,7 @@ export default function Example() {
                       >
                         <span className="sr-only">{item.name}</span>
                         <item.icon className="" aria-hidden="true" />
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>

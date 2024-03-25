@@ -35,6 +35,7 @@ import Rekya from "@/public/rekya.png";
 import Alex from "@/public/alex.png";
 import Saidu from "@/public/sadiu.png";
 import Emerald from "@/public/emerald.png";
+import Link from "next/link";
 
 const ANIMATION_DURATION = 2000;
 
@@ -137,14 +138,14 @@ export default function Home() {
                   alt=""
                   className="absolute  md:w-1/2 right-14 scale-x-[-1]"
                 />
-                <a href="/spend">
+                <Link href="/spend">
                 <h1 className="absolute flex bottom-8 hover:cursor-pointer text-getstarted">
                   Get Started
                   <span className="ml-2">
                     <ArrowUp />
                   </span>
                 </h1>
-                </a>
+                </Link>
               </div>
 
               <div className="bg-homeblue md:h-[30rem] md:rounded-2xl lg:h-[27rem] h-[23rem] relative p-6 md:mt-5 lg:py-10  w-full lg:w-1/3 rounded-2xl">
@@ -156,14 +157,14 @@ export default function Home() {
                   more than 15% on annual interest rate.
                 </p>
 
-                <a href="/save">
+                <Link href="/save">
                 <h1 className="absolute flex bottom-16 hover:cursor-pointer text-white">
                   Get Started
                   <span className="ml-2">
                     <ArrowUpW />
                   </span>
                 </h1>
-                </a>
+                </Link>
 
                 <Image
                   height={200}
@@ -190,14 +191,14 @@ export default function Home() {
                   alt=""
                   className="absolute md:w-1/2 left-20"
                 />
-                <a href="/earn">
+                <Link href="/earn">
                 <h1 className="flex absolute  lg:right-8 bottom-8 hover:scale-200 hover:cursor-pointer text-getstarted">
                   Get Started
                   <span className="ml-2">
                     <ArrowUp />
                   </span>
                 </h1>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -218,14 +219,14 @@ export default function Home() {
                 sustainable relationships or meet that lucky person.
               </p>
 
-              <a href="/socialize">
+              <Link href="/socialize">
               <h1 className=" flex text-getstarted hover:cursor-pointer pt-5">
                 Get Started
                 <span className="ml-2 ">
                   <ArrowUp />
                 </span>
               </h1>
-              </a>
+              </Link>
             </div>
             <div className="md:h-80 lg:h-96 w-full md:w-full lg:w-[35rem] bg-homemediumgreen rounded-2xl flex items-center justify-center">
               <Image src={Text} className="w-[60%] md:h-[inherit] md:w-auto" alt="" />
@@ -255,14 +256,14 @@ export default function Home() {
                 lead. Say goodbye to “I will get back to you”.
               </p>
 
-              <a href="/business">
+              <Link href="/business">
               <h1 className=" flex text-getstarted pt-5 hover:cursor-pointer">
                 Get Started
                 <span className="ml-2">
                   <ArrowUp />
                 </span>
               </h1>
-              </a>
+              </Link>
             </div>
           </div>
         </section>

@@ -1,6 +1,7 @@
 "use client";
 import Header from "@/app/component/header";
 import Footer from "@/app/component/footer";
+import Link from "next/link";
 
 export default function Question() {
   return (
@@ -27,10 +28,10 @@ export default function Question() {
           represent an agreement between you and Circle Tri-Angle Technology
           Limited ("myCircle") and contain the terms and conditions governing
           your use of and access to our mobile and website at
-          <a href="https://www.myCircle.africa">
+          <Link href="https://www.myCircle.africa">
             https://www.myCircle.africa
-          </a>{" "}
-          and <a href="https://myCircle.finance">https://myCircle.finance</a>{" "}
+          </Link>{" "}
+          and <Link href="https://myCircle.finance">https://myCircle.finance</Link>{" "}
           and all affiliated mobile and mobile and mobile and mobile and
           websites and mobile application owned and operated by us
           (collectively, the “Mobile and website”) and our products, services,
@@ -515,16 +516,18 @@ export default function Question() {
           represent that:
           <ul>
             <li>
-              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>you have read and understand this consent to use electronic
-              signatures and to receive Communications electronically;{" "}
+              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>you have read
+              and understand this consent to use electronic signatures and to
+              receive Communications electronically;{" "}
             </li>
             <li>
-              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>you satisfy the minimum hardware and software requirements
-              specified below; and
+              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>you satisfy the
+              minimum hardware and software requirements specified below; and
             </li>
             <li>
-              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>your consent will remain in effect until you withdraw your
-              consent as specified below.{" "}
+              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>your consent
+              will remain in effect until you withdraw your consent as specified
+              below.{" "}
             </li>
           </ul>
           You have rights to Withdraw Your Consent. Your consent to receive
@@ -559,23 +562,26 @@ export default function Question() {
           <ul>
             <li> - a valid email address;</li>
             <li>
-              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>a computer or other mobile device (such as tablet or smartphone)
-              that operates on a platform like Windows or a Mac;
+              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>a computer or
+              other mobile device (such as tablet or smartphone) that operates
+              on a platform like Windows or a Mac;
             </li>
             <li> - a connection to the Internet;</li>
             <li>
-              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>a Current Version of a program that accurately reads and
-              displays PDF files;
+              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>a Current
+              Version of a program that accurately reads and displays PDF files;
             </li>
             <li>
-              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>a computer or device and an operating system capable of
-              supporting all of the above; and{" "}
+              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>a computer or
+              device and an operating system capable of supporting all of the
+              above; and{" "}
             </li>
             <li>
-              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>a printer to print out and save Communications in paper form or
-              electronic storage to retain Communications in an electronic form.
-              “Current Version” means a version of the software that its
-              publisher is currently supporting.
+              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>a printer to
+              print out and save Communications in paper form or electronic
+              storage to retain Communications in an electronic form. “Current
+              Version” means a version of the software that its publisher is
+              currently supporting.
             </li>
           </ul>
           <br />
@@ -851,27 +857,32 @@ export default function Question() {
           myCircle Account or your use our Services where:
           <ul>
             <li>
-              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>myCircle reasonably believe that any transactions or activities
-              on your myCircle Account are suspicious;
+              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>myCircle
+              reasonably believe that any transactions or activities on your
+              myCircle Account are suspicious;
             </li>
             <li>
-              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>you are creating problems or possible legal liabilities for us
-              or other third parties;
+              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>you are creating
+              problems or possible legal liabilities for us or other third
+              parties;
             </li>
             <li>
-              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>myCircle reasonably believe that such restrictions will improve
-              the security of the Mobile and website or reduce our or another
+              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>myCircle
+              reasonably believe that such restrictions will improve the
+              security of the Mobile and website or reduce our or another
               person's exposure to financial liabilities;
             </li>
             <li>
-              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>myCircle reasonably believe that you are acting inconsistently
-              with these Terms or our policies; despite our reasonable
-              endeavours, myCircle are unable to verify or authenticate any
-              information you provide to us;
+              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>myCircle
+              reasonably believe that you are acting inconsistently with these
+              Terms or our policies; despite our reasonable endeavours, myCircle
+              are unable to verify or authenticate any information you provide
+              to us;
             </li>
             <li>
-              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>myCircle deem it fit for any reason and at any time, in our
-              interest and that of other third parties.
+              <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>myCircle deem it
+              fit for any reason and at any time, in our interest and that of
+              other third parties.
             </li>
           </ul>
           <br />
