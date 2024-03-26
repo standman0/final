@@ -50,7 +50,7 @@ const businesses = [
   {
     name: "Business",
     description: "Improve business sales, collect payment with myCircle",
-    href: "business",
+    href: "/business",
     icon: Air,
   }
 ];
